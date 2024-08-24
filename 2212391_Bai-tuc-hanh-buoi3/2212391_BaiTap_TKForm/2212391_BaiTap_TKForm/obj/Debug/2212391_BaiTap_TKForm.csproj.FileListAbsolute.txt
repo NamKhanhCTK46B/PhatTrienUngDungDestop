@@ -1,0 +1,15 @@
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\bin\Debug\2212391_BaiTap_TKForm.exe.config
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\bin\Debug\2212391_BaiTap_TKForm.exe
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\bin\Debug\2212391_BaiTap_TKForm.pdb
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\obj\Debug\2212391_BaiTap_TKForm.csproj.AssemblyReference.cache
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\obj\Debug\2212391_BaiTap_TKForm.csproj.SuggestedBindingRedirects.cache
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\obj\Debug\_2212391_BaiTap_TKForm.frmBai1.resources
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\obj\Debug\_2212391_BaiTap_TKForm.Properties.Resources.resources
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\obj\Debug\2212391_BaiTap_TKForm.csproj.GenerateResource.cache
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\obj\Debug\2212391_BaiTap_TKForm.csproj.CoreCompileInputs.cache
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\obj\Debug\2212391_BaiTap_TKForm.exe
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\obj\Debug\2212391_BaiTap_TKForm.pdb
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\obj\Debug\_2212391_BaiTap_TKForm.frmChinh.resources
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\obj\Debug\_2212391_BaiTap_TKForm.frmBai2.resources
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\obj\Debug\_2212391_BaiTap_TKForm.frmBai3.resources
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\2212391_BaiTap_TKForm\2212391_BaiTap_TKForm\obj\Debug\_2212391_BaiTap_TKForm.frmBai4.resources
