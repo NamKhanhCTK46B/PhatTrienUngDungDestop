@@ -1,0 +1,13 @@
+D:\Khanh_WindowForm\BaiTapWindowForms\BaiTapWindowForms\BaiTap2\bin\Debug\BaiTap2.exe.config
+D:\Khanh_WindowForm\BaiTapWindowForms\BaiTapWindowForms\BaiTap2\bin\Debug\BaiTap2.exe
+D:\Khanh_WindowForm\BaiTapWindowForms\BaiTapWindowForms\BaiTap2\bin\Debug\BaiTap2.pdb
+D:\Khanh_WindowForm\BaiTapWindowForms\BaiTapWindowForms\BaiTap2\obj\Debug\BaiTap2.csproj.AssemblyReference.cache
+D:\Khanh_WindowForm\BaiTapWindowForms\BaiTapWindowForms\BaiTap2\obj\Debug\BaiTap2.frmBai1.resources
+D:\Khanh_WindowForm\BaiTapWindowForms\BaiTapWindowForms\BaiTap2\obj\Debug\BaiTap2.frmChinh.resources
+D:\Khanh_WindowForm\BaiTapWindowForms\BaiTapWindowForms\BaiTap2\obj\Debug\BaiTap2.Properties.Resources.resources
+D:\Khanh_WindowForm\BaiTapWindowForms\BaiTapWindowForms\BaiTap2\obj\Debug\BaiTap2.csproj.GenerateResource.cache
+D:\Khanh_WindowForm\BaiTapWindowForms\BaiTapWindowForms\BaiTap2\obj\Debug\BaiTap2.csproj.CoreCompileInputs.cache
+D:\Khanh_WindowForm\BaiTapWindowForms\BaiTapWindowForms\BaiTap2\obj\Debug\BaiTap2.exe
+D:\Khanh_WindowForm\BaiTapWindowForms\BaiTapWindowForms\BaiTap2\obj\Debug\BaiTap2.pdb
+D:\Khanh_WindowForm\BaiTapWindowForms\BaiTapWindowForms\BaiTap2\obj\Debug\BaiTap2.frmBai2.resources
+D:\Khanh_WindowForm\BaiTapWindowForms\BaiTapWindowForms\BaiTap2\obj\Debug\BaiTap2.frmBai3.resources

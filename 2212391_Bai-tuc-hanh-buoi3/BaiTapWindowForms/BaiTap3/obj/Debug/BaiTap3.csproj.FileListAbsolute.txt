@@ -1,0 +1,14 @@
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\BaiTapWindowForms\BaiTap3\bin\Debug\BaiTap3.exe.config
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\BaiTapWindowForms\BaiTap3\bin\Debug\BaiTap3.exe
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\BaiTapWindowForms\BaiTap3\bin\Debug\BaiTap3.pdb
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\BaiTapWindowForms\BaiTap3\obj\Debug\BaiTap3.csproj.AssemblyReference.cache
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\BaiTapWindowForms\BaiTap3\obj\Debug\BaiTap3.csproj.SuggestedBindingRedirects.cache
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\BaiTapWindowForms\BaiTap3\obj\Debug\BaiTap3.frmBai1.resources
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\BaiTapWindowForms\BaiTap3\obj\Debug\BaiTap3.frmChinh.resources
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\BaiTapWindowForms\BaiTap3\obj\Debug\BaiTap3.Properties.Resources.resources
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\BaiTapWindowForms\BaiTap3\obj\Debug\BaiTap3.csproj.GenerateResource.cache
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\BaiTapWindowForms\BaiTap3\obj\Debug\BaiTap3.csproj.CoreCompileInputs.cache
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\BaiTapWindowForms\BaiTap3\obj\Debug\BaiTap3.exe
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\BaiTapWindowForms\BaiTap3\obj\Debug\BaiTap3.pdb
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\BaiTapWindowForms\BaiTap3\obj\Debug\BaiTap3.frmBai2.resources
+D:\bài lab\phát triển ứng dụng desktop\bài lab\2212391_Bai-tuc-hanh-buoi3\BaiTapWindowForms\BaiTap3\obj\Debug\BaiTap3.frmBai3.resources
