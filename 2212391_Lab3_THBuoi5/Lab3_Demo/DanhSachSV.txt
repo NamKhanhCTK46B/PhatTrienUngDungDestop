@@ -1,0 +1,8 @@
+﻿SV001*Nguyễn Văn A*01/01/2000*Hà Nội*K62*avatar1.png*0*Mạng truyền thông,Công nghệ phần mềm
+SV002*Trần Thị B*15/05/2001*Hồ Chí Minh*K63*avatar2.png*1*Trí tuệ nhân tạo,Hệ thống thông tin
+SV003*Lê Văn C*10/03/2002*Đà Nẵng*K64*avatar3.png*0*Khoa học máy tính
+SV004*Nguyễn Thị D*20/07/2001*Hải Phòng*K62*avatar4.png*1*Tin học ứng dụng,Mạng truyền thông
+SV005*Phan Văn E*05/11/2000*Cần Thơ*K63*avatar5.png*0*Công nghệ phần mềm
+SV006*Trần Thị F*25/02/2002*Hồ Chí Minh*K64*avatar2.png*1*Tin học ứng dụng,Khoa học máy tính
+SV007*Vũ Văn G*18/09/2001*Hà Nội*K62*avatar1.png*0*Trí tuệ nhân tạo
+SV008*Bùi Thị H*08/12/2000*Đà Nẵng*K63*avatar3.png*1*Công nghệ phần mềm
