@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QLPhongKS_QLKhachHang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5650122-C23B-4FD7-AE34-022A785CFF34}|QLKhachHang\\QLKhachHang.csproj|f:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\qlphongks_qlkhachhang\\qlkhachhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5650122-C23B-4FD7-AE34-022A785CFF34}|QLKhachHang\\QLKhachHang.csproj|solutionrelative:qlkhachhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5650122-C23B-4FD7-AE34-022A785CFF34}|QLKhachHang\\QLKhachHang.csproj|f:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\qlphongks_qlkhachhang\\qlkhachhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E5650122-C23B-4FD7-AE34-022A785CFF34}|QLKhachHang\\QLKhachHang.csproj|solutionrelative:qlkhachhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5650122-C23B-4FD7-AE34-022A785CFF34}|QLKhachHang\\QLKhachHang.csproj|f:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\qlphongks_qlkhachhang\\qlkhachhang\\model\\dskhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5650122-C23B-4FD7-AE34-022A785CFF34}|QLKhachHang\\QLKhachHang.csproj|solutionrelative:qlkhachhang\\model\\dskhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5650122-C23B-4FD7-AE34-022A785CFF34}|QLKhachHang\\QLKhachHang.csproj|f:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\qlphongks_qlkhachhang\\qlkhachhang\\frmloaikh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5650122-C23B-4FD7-AE34-022A785CFF34}|QLKhachHang\\QLKhachHang.csproj|solutionrelative:qlkhachhang\\frmloaikh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5650122-C23B-4FD7-AE34-022A785CFF34}|QLKhachHang\\QLKhachHang.csproj|f:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\qlphongks_qlkhachhang\\qlkhachhang\\model\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5650122-C23B-4FD7-AE34-022A785CFF34}|QLKhachHang\\QLKhachHang.csproj|solutionrelative:qlkhachhang\\model\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DSKhachHang.cs",
+              "DocumentMoniker": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QLPhongKS_QLKhachHang\\QLKhachHang\\model\\DSKhachHang.cs",
+              "RelativeDocumentMoniker": "QLKhachHang\\model\\DSKhachHang.cs",
+              "ToolTip": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QLPhongKS_QLKhachHang\\QLKhachHang\\model\\DSKhachHang.cs",
+              "RelativeToolTip": "QLKhachHang\\model\\DSKhachHang.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAmwH4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T01:51:39.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmKhachHang.cs",
+              "DocumentMoniker": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QLPhongKS_QLKhachHang\\QLKhachHang\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "QLKhachHang\\frmKhachHang.cs",
+              "ToolTip": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QLPhongKS_QLKhachHang\\QLKhachHang\\frmKhachHang.cs",
+              "RelativeToolTip": "QLKhachHang\\frmKhachHang.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T04:49:24.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmKhachHang.cs [Design]",
+              "DocumentMoniker": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QLPhongKS_QLKhachHang\\QLKhachHang\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "QLKhachHang\\frmKhachHang.cs",
+              "ToolTip": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QLPhongKS_QLKhachHang\\QLKhachHang\\frmKhachHang.cs [Design]",
+              "RelativeToolTip": "QLKhachHang\\frmKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T03:59:15.222Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmLoaiKH.cs",
+              "DocumentMoniker": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QLPhongKS_QLKhachHang\\QLKhachHang\\frmLoaiKH.cs",
+              "RelativeDocumentMoniker": "QLKhachHang\\frmLoaiKH.cs",
+              "ToolTip": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QLPhongKS_QLKhachHang\\QLKhachHang\\frmLoaiKH.cs",
+              "RelativeToolTip": "QLKhachHang\\frmLoaiKH.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAIwDYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T04:52:40.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QLPhongKS_QLKhachHang\\QLKhachHang\\model\\KhachHang.cs",
+              "RelativeDocumentMoniker": "QLKhachHang\\model\\KhachHang.cs",
+              "ToolTip": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QLPhongKS_QLKhachHang\\QLKhachHang\\model\\KhachHang.cs",
+              "RelativeToolTip": "QLKhachHang\\model\\KhachHang.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T04:06:40.709Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
