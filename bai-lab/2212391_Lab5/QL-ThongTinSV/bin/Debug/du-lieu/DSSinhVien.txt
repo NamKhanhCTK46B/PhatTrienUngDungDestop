@@ -1,0 +1,10 @@
+﻿2110001*Nguyễn Xuân*Thắng*12/12/2003*CTK45*122000001*0324100009*Sài Gòn*1*Đồ án cơ sơ,An toàn và bảo mật hệ thống,Lập trình trên thiết bị di động
+2210001*Trần Hoài*Nam*09/27/2004*CTK46*123000001*0329100001*Đà Lạt*1*Mạng máy tính,Lập trình mạng,Hệ điều hành
+2210002*Nguyễn Trường*Sinh*10/10/2004*CTK46*123000002*0924100000*Sài Gòn*1*Mạng máy tính,Lập trình CSDL,Đồ án cơ sở,Phương pháp NCKH
+2210003*Nguyễn Thị Kim*Thuỳ*09/05/2004*CTK46*123000003*0984100003*Hà Nội*0*Lập trình CSDL,An toàn và bảo mật hệ thống,Đồ án cơ sở
+2210004*Nguyễn Hoàng*Anh*02/29/2004*CTK46*123000004*0724100004*Hưng Yên*1*Đồ án cơ sở,Hệ điều hành,Mạng máy tính,Lập trình mạng
+2210001*Trần Hoài*Nam*09/27/2004*CTK46*123000001*0329100001*Đà Lạt*1*Mạng máy tính,Lập trình mạng,Hệ điều hành
+2310001*Nguyễn Trường*Giang*04/30/2005*CTK47*124000001*0984100005*Đà Lạt*Đồ án cơ sở,Lập trình trên thiết bị di động
+2310002*Lê Thuỳ Lan*Chi*09/27/2005*CTK47*124000002*0324100004*Đà Lạt*0*Mạng máy tính,Lập trình mạng,Hệ điều hành
+2410001*Hứa Duy*Băng*10/20/2006*CTK48*125000001*0624000011*Hà Nội*1*Lập trình CSDL,Lập trình mạng
+2410002*Trần Ngân*Nguyệt*01/30/2006*CTK48*125000002*0924100011*Hưng Yên*1*Lập trình CSDL,Lập trình mạng,Hệ điều hành
