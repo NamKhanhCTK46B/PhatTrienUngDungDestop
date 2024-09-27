@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "sinhvien": [
+
+    {
+      "MSSV": "1245732",
+      "hoten": "Thái Duy Quý",
+      "tuoi": 21,
+      "diem": 8.5,
+      "tongiao": false
+    },
+    {
+      "MSSV": "1245872",
+      "hoten": "Phạm Thị Thanh Nga",
+      "tuoi": 20,
+      "diem": 9.0,
+      "tongiao": true
+    }
+  ]
+}

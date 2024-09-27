@@ -1,0 +1,26 @@
+C:\Users\ADMIN\source\repos\2212391_Lab5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\ADMIN\source\repos\2212391_Lab5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\ADMIN\source\repos\2212391_Lab5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\ADMIN\source\repos\2212391_Lab5\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\source\repos\2212391_Lab5\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\source\repos\2212391_Lab5\WindowsFormsApp1\obj\Debug\Demo_DocFile-Json.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\2212391_Lab5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\ADMIN\source\repos\2212391_Lab5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\2212391_Lab5\WindowsFormsApp1\obj\Debug\Demo_DocFile-Json.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\2212391_Lab5\WindowsFormsApp1\obj\Debug\Demo_DocFile-Json.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\2212391_Lab5\WindowsFormsApp1\obj\Debug\Demo_Doc.75ABF84C.Up2Date
+C:\Users\ADMIN\source\repos\2212391_Lab5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\ADMIN\source\repos\2212391_Lab5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\WindowsFormsApp1\obj\Debug\Demo_DocFile-Json.csproj.AssemblyReference.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\WindowsFormsApp1\obj\Debug\Demo_DocFile-Json.csproj.GenerateResource.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\WindowsFormsApp1\obj\Debug\Demo_DocFile-Json.csproj.CoreCompileInputs.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\WindowsFormsApp1\obj\Debug\Demo_Doc.75ABF84C.Up2Date
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

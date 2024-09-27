@@ -1,0 +1,10 @@
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\bin\Debug\QL-ThongTinSV.exe.config
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\bin\Debug\QL-ThongTinSV.exe
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\bin\Debug\QL-ThongTinSV.pdb
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\obj\Debug\QL-ThongTinSV.csproj.AssemblyReference.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\obj\Debug\QL_ThongTinSV.frmSinhVien.resources
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\obj\Debug\QL_ThongTinSV.Properties.Resources.resources
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\obj\Debug\QL-ThongTinSV.csproj.GenerateResource.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\obj\Debug\QL-ThongTinSV.csproj.CoreCompileInputs.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\obj\Debug\QL-ThongTinSV.exe
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\obj\Debug\QL-ThongTinSV.pdb

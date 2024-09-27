@@ -1,0 +1,14 @@
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\Demo_Doc-file-xml\bin\Debug\net8.0\Demo_Doc-file-xml.exe
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\Demo_Doc-file-xml\bin\Debug\net8.0\Demo_Doc-file-xml.deps.json
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\Demo_Doc-file-xml\bin\Debug\net8.0\Demo_Doc-file-xml.runtimeconfig.json
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\Demo_Doc-file-xml\bin\Debug\net8.0\Demo_Doc-file-xml.dll
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\Demo_Doc-file-xml\bin\Debug\net8.0\Demo_Doc-file-xml.pdb
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\Demo_Doc-file-xml\obj\Debug\net8.0\Demo_Doc-file-xml.GeneratedMSBuildEditorConfig.editorconfig
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\Demo_Doc-file-xml\obj\Debug\net8.0\Demo_Doc-file-xml.AssemblyInfoInputs.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\Demo_Doc-file-xml\obj\Debug\net8.0\Demo_Doc-file-xml.AssemblyInfo.cs
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\Demo_Doc-file-xml\obj\Debug\net8.0\Demo_Doc-file-xml.csproj.CoreCompileInputs.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\Demo_Doc-file-xml\obj\Debug\net8.0\Demo_Doc-file-xml.dll
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\Demo_Doc-file-xml\obj\Debug\net8.0\refint\Demo_Doc-file-xml.dll
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\Demo_Doc-file-xml\obj\Debug\net8.0\Demo_Doc-file-xml.pdb
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\Demo_Doc-file-xml\obj\Debug\net8.0\Demo_Doc-file-xml.genruntimeconfig.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\Demo_Doc-file-xml\obj\Debug\net8.0\ref\Demo_Doc-file-xml.dll

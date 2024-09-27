@@ -1,0 +1,10 @@
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab4\Demo\bin\Debug\Demo.exe.config
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab4\Demo\bin\Debug\Demo.exe
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab4\Demo\bin\Debug\Demo.pdb
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab4\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab4\Demo\obj\Debug\Demo.frmChinh.resources
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab4\Demo\obj\Debug\Demo.Properties.Resources.resources
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab4\Demo\obj\Debug\Demo.csproj.GenerateResource.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab4\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab4\Demo\obj\Debug\Demo.exe
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab4\Demo\obj\Debug\Demo.pdb
