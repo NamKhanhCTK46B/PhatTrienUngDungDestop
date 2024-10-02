@@ -40,8 +40,8 @@
             this.mtxtSDT = new System.Windows.Forms.MaskedTextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.cboLop = new System.Windows.Forms.ComboBox();
-            this.rbNu = new System.Windows.Forms.RadioButton();
-            this.rbNam = new System.Windows.Forms.RadioButton();
+            this.rdNu = new System.Windows.Forms.RadioButton();
+            this.rdNam = new System.Windows.Forms.RadioButton();
             this.mtxtCMND = new System.Windows.Forms.MaskedTextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
@@ -93,8 +93,8 @@
             this.splitContainer1.Panel1.Controls.Add(this.mtxtSDT);
             this.splitContainer1.Panel1.Controls.Add(this.label8);
             this.splitContainer1.Panel1.Controls.Add(this.cboLop);
-            this.splitContainer1.Panel1.Controls.Add(this.rbNu);
-            this.splitContainer1.Panel1.Controls.Add(this.rbNam);
+            this.splitContainer1.Panel1.Controls.Add(this.rdNu);
+            this.splitContainer1.Panel1.Controls.Add(this.rdNam);
             this.splitContainer1.Panel1.Controls.Add(this.mtxtCMND);
             this.splitContainer1.Panel1.Controls.Add(this.label4);
             this.splitContainer1.Panel1.Controls.Add(this.dtpNgaySinh);
@@ -184,6 +184,7 @@
             this.btnThoat.TabIndex = 63;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click_1);
             // 
             // btnTimKiem
             // 
@@ -239,29 +240,29 @@
             this.cboLop.Size = new System.Drawing.Size(144, 28);
             this.cboLop.TabIndex = 55;
             // 
-            // rbNu
+            // rdNu
             // 
-            this.rbNu.AutoSize = true;
-            this.rbNu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbNu.Location = new System.Drawing.Point(717, 21);
-            this.rbNu.Name = "rbNu";
-            this.rbNu.Size = new System.Drawing.Size(51, 24);
-            this.rbNu.TabIndex = 54;
-            this.rbNu.Text = "Nữ";
-            this.rbNu.UseVisualStyleBackColor = true;
+            this.rdNu.AutoSize = true;
+            this.rdNu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdNu.Location = new System.Drawing.Point(717, 21);
+            this.rdNu.Name = "rdNu";
+            this.rdNu.Size = new System.Drawing.Size(51, 24);
+            this.rdNu.TabIndex = 54;
+            this.rdNu.Text = "Nữ";
+            this.rdNu.UseVisualStyleBackColor = true;
             // 
-            // rbNam
+            // rdNam
             // 
-            this.rbNam.AutoSize = true;
-            this.rbNam.Checked = true;
-            this.rbNam.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbNam.Location = new System.Drawing.Point(615, 21);
-            this.rbNam.Name = "rbNam";
-            this.rbNam.Size = new System.Drawing.Size(65, 24);
-            this.rbNam.TabIndex = 53;
-            this.rbNam.TabStop = true;
-            this.rbNam.Text = "Nam";
-            this.rbNam.UseVisualStyleBackColor = true;
+            this.rdNam.AutoSize = true;
+            this.rdNam.Checked = true;
+            this.rdNam.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdNam.Location = new System.Drawing.Point(615, 21);
+            this.rdNam.Name = "rdNam";
+            this.rdNam.Size = new System.Drawing.Size(65, 24);
+            this.rdNam.TabIndex = 53;
+            this.rdNam.TabStop = true;
+            this.rdNam.Text = "Nam";
+            this.rdNam.UseVisualStyleBackColor = true;
             // 
             // mtxtCMND
             // 
@@ -418,6 +419,7 @@
             // ColumnHeader0
             // 
             this.ColumnHeader0.Text = "MSSV";
+            this.ColumnHeader0.Width = 80;
             // 
             // columnHeader1
             // 
@@ -427,7 +429,6 @@
             // columnHeader2
             // 
             this.columnHeader2.Text = "Tên";
-            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // columnHeader3
             // 
@@ -450,7 +451,7 @@
             // 
             this.columnHeader6.Text = "Số ĐT";
             this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader6.Width = 90;
+            this.columnHeader6.Width = 100;
             // 
             // columnHeader7
             // 
@@ -465,7 +466,7 @@
             // columnHeader9
             // 
             this.columnHeader9.Text = "Môn học đăng lý";
-            this.columnHeader9.Width = 300;
+            this.columnHeader9.Width = 500;
             // 
             // frmSinhVien
             // 
@@ -500,8 +501,8 @@
         private System.Windows.Forms.MaskedTextBox mtxtSDT;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox cboLop;
-        private System.Windows.Forms.RadioButton rbNu;
-        private System.Windows.Forms.RadioButton rbNam;
+        private System.Windows.Forms.RadioButton rdNu;
+        private System.Windows.Forms.RadioButton rdNam;
         private System.Windows.Forms.MaskedTextBox mtxtCMND;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DateTimePicker dtpNgaySinh;

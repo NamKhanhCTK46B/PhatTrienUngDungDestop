@@ -8,3 +8,6 @@ F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-Thon
 F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\obj\Debug\QL-ThongTinSV.csproj.CoreCompileInputs.cache
 F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\obj\Debug\QL-ThongTinSV.exe
 F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\obj\Debug\QL-ThongTinSV.pdb
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\bin\Debug\Newtonsoft.Json.dll
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\bin\Debug\Newtonsoft.Json.xml
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab5\QL-ThongTinSV\obj\Debug\QL-Thong.7B5EB0D1.Up2Date

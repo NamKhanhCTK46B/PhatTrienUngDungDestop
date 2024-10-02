@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace QL_ThongTinSV
 {
@@ -17,8 +18,8 @@ namespace QL_ThongTinSV
             InitializeComponent();
         }
 
-        #region
-
+        #region Phương thức bổ trợ
+        QLSinhVien dssv;
         private SinhVien LayTTSV_Controls()
         {
             SinhVien sv = new SinhVien();
@@ -33,7 +34,7 @@ namespace QL_ThongTinSV
             sv.SoCMND = this.mtxtCMND.Text;
             sv.SDT = this.mtxtMSSV.Text;
             sv.DiaChi = this.txtDiaChi.Text;
-            if (rbNam.Checked)
+            if (rdNam.Checked)
                 gt = true;
             sv.GioiTinh = gt;
 
@@ -72,11 +73,73 @@ namespace QL_ThongTinSV
             return sv;
         }
 
+        private void ThietLapTT_Control(SinhVien sv)
+        {
+            this.mtxtMSSV.Text = sv.MSSV;
+            this.txtHoTenLot.Text = sv.HoTenLot;
+            this.txtTen.Text = sv.Ten;
+            this.dtpNgaySinh.Value = sv.NgaySinh;
+            this.cboLop.Text = sv.Lop;
+            this.mtxtCMND.Text = sv.SoCMND;
+            this.mtxtSDT.Text = sv.SDT;
+            this.txtDiaChi.Text = sv.DiaChi;
+            if (sv.GioiTinh)
+                this.rdNam.Checked = true;
+            else
+                this.rdNu.Checked = true;
+            for (int i = 0; i <= clbMonDK.Items.Count; i++)
+                this.clbMonDK.SetItemChecked(i, false);
+            foreach (string mon in sv.MonHocDK)
+            {
+                for (int i = 0; i <= this.clbMonDK.Items.Count; i++)
+                    if (mon.CompareTo(this.clbMonDK.Items[i]) == 0)
+                        this.clbMonDK.SetItemChecked(i, true);
+            }
+        }
+
+        private void ThemSV_LV (SinhVien sv)
+        {
+            ListViewItem lvitem = new ListViewItem(sv.MSSV);
+            string gt = "Nữ", mdk = "";
+
+            lvitem.SubItems.Add(sv.HoTenLot);
+            lvitem.SubItems.Add(sv.Ten);
+            lvitem.SubItems.Add(sv.NgaySinh.ToString("dd/MM/yyyy"));
+            lvitem.SubItems.Add(sv.Lop);
+            lvitem.SubItems.Add(sv.SoCMND);
+            lvitem.SubItems.Add(sv.SDT);
+            lvitem.SubItems.Add(sv.DiaChi);
+            if (sv.GioiTinh)
+                gt = "Nam";
+            lvitem.SubItems.Add(gt);
+            foreach (string mon in sv.MonHocDK)
+            {
+                mdk += mon + ", ";
+            }
+            lvitem.SubItems.Add(mdk);
+
+            this.lvSinhVien.Items.Add(lvitem);
+        }
+
+        private void TaiListView ()
+        {
+            this.lvSinhVien.Items.Clear();
+            foreach (SinhVien sv in dssv.DSSV)
+            {
+                ThemSV_LV(sv);
+            }
+        }
+
         #endregion
+
+        #region Các sự kiện
 
         private void frmSinhVien_Load(object sender, EventArgs e)
         {
-
+            dssv = new QLSinhVien();
+            //dssv.DocFile_TXT("du-lieu\\DSSinhVien.txt");
+            dssv.DocFile_Json("du-lieu\\DSSinhVien.json");
+            TaiListView();
         }
 
         private void btnThem_Click(object sender, EventArgs e)
@@ -84,9 +147,13 @@ namespace QL_ThongTinSV
 
         }
 
-        private void btnThoat_Click(object sender, EventArgs e)
+        private void btnThoat_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
+
+
+        #endregion
     }
 }
