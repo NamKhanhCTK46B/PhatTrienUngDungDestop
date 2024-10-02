@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.btnThem = new System.Windows.Forms.Button();
             this.clbMonDK = new System.Windows.Forms.CheckedListBox();
@@ -66,11 +67,15 @@
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.tsmiXoa = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiTaiLaiDS = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -125,6 +130,7 @@
             this.btnThem.TabIndex = 65;
             this.btnThem.Text = "Thêm mới";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click_1);
             // 
             // clbMonDK
             // 
@@ -316,7 +322,6 @@
             this.mtxtMSSV.Location = new System.Drawing.Point(185, 20);
             this.mtxtMSSV.Mask = "0000000";
             this.mtxtMSSV.Name = "mtxtMSSV";
-            this.mtxtMSSV.ReadOnly = true;
             this.mtxtMSSV.Size = new System.Drawing.Size(153, 27);
             this.mtxtMSSV.TabIndex = 47;
             // 
@@ -394,6 +399,7 @@
             // 
             // lvSinhVien
             // 
+            this.lvSinhVien.CheckBoxes = true;
             this.lvSinhVien.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColumnHeader0,
             this.columnHeader1,
@@ -415,6 +421,7 @@
             this.lvSinhVien.TabIndex = 0;
             this.lvSinhVien.UseCompatibleStateImageBehavior = false;
             this.lvSinhVien.View = System.Windows.Forms.View.Details;
+            this.lvSinhVien.SelectedIndexChanged += new System.EventHandler(this.lvSinhVien_SelectedIndexChanged);
             // 
             // ColumnHeader0
             // 
@@ -468,6 +475,27 @@
             this.columnHeader9.Text = "Môn học đăng lý";
             this.columnHeader9.Width = 500;
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiXoa,
+            this.tsmiTaiLaiDS});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(138, 52);
+            // 
+            // tsmiXoa
+            // 
+            this.tsmiXoa.Name = "tsmiXoa";
+            this.tsmiXoa.Size = new System.Drawing.Size(137, 24);
+            this.tsmiXoa.Text = "Xoá";
+            // 
+            // tsmiTaiLaiDS
+            // 
+            this.tsmiTaiLaiDS.Name = "tsmiTaiLaiDS";
+            this.tsmiTaiLaiDS.Size = new System.Drawing.Size(137, 24);
+            this.tsmiTaiLaiDS.Text = "Tải lại ds";
+            // 
             // frmSinhVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -483,6 +511,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -527,6 +556,9 @@
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.ColumnHeader columnHeader8;
         private System.Windows.Forms.ColumnHeader columnHeader9;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem tsmiXoa;
+        private System.Windows.Forms.ToolStripMenuItem tsmiTaiLaiDS;
     }
 }
 

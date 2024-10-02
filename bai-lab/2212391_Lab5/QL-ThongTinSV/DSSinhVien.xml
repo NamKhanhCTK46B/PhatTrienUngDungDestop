@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dssinhvien>
+	<sinhvien>
+		<mssv>2110001</mssv>
+		<hotenlot>Nguyễn Xuân</hotenlot>
+		<ten>Thắng</ten>
+		<ngaysinh>12/12/2003</ngaysinh>
+		<lop>CTK45</lop>
+		<socmnd>122000001</socmnd>
+		<sdt>0324100009</sdt>
+		<diachi>Sài Gòn</diachi>
+		<gioitinh>1</gioitinh>
+		<monhocdk>
+			<mon>Đồ án cơ sơ</mon>
+			<mon>An toàn và bảo mật hệ thống</mon>
+			<mon>Lập trình trên thiết bị di động</mon>
+		</monhocdk>
+	</sinhvien>
+	<sinhvien>
+		<mssv>2210001</mssv>
+		<hotenlot>Trần Hoài</hotenlot>
+		<ten>Nam</ten>
+		<ngaysinh>09/27/2004</ngaysinh>
+		<lop>CTK46</lop>
+		<socmnd>123000001</socmnd>
+		<sdt>0329100001</sdt>
+		<diachi>Đà Lạt</diachi>
+		<gioitinh>1</gioitinh>
+		<monhocdk>
+			<mon>Mạng máy tính</mon>
+			<mon>Lập trình mạng</mon>
+			<mon>Hệ điều hành</mon>
+		</monhocdk>
+	</sinhvien>
+	<sinhvien>
+		<mssv>2210002</mssv>
+		<hotenlot>Nguyễn Trường</hotenlot>
+		<ten>Sinh</ten>
+		<ngaysinh>10/10/2004</ngaysinh>
+		<lop>CTK46</lop>
+		<socmnd>123000002</socmnd>
+		<sdt>0924100000</sdt>
+		<diachi>Sài Gòn</diachi>
+		<gioitinh>1</gioitinh>
+		<monhocdk>
+			<mon>Mạng máy tính</mon>
+			<mon>Lập trình CSDL</mon>
+			<mon>Đồ án cơ sở</mon>
+			<mon>Phương pháp NCKH</mon>
+		</monhocdk>
+	</sinhvien>
+	<sinhvien>
+		<mssv>2210003</mssv>
+		<hotenlot>Nguyễn Thị Kim</hotenlot>
+		<ten>Thuỳ</ten>
+		<ngaysinh>09/05/2004</ngaysinh>
+		<lop>CTK46</lop>
+		<socmnd>123000003</socmnd>
+		<sdt>0984100003</sdt>
+		<diachi>Hà Nội</diachi>
+		<gioitinh>0</gioitinh>
+		<monhocdk>
+			<mon>Lập trình CSDL</mon>
+			<mon>An toàn và bảo mật hệ thống</mon>
+			<mon>Đồ án cơ sở</mon>
+		</monhocdk>
+	</sinhvien>
+	<sinhvien>
+		<mssv>2210004</mssv>
+		<hotenlot>Nguyễn Hoàng</hotenlot>
+		<ten>Anh</ten>
+		<ngaysinh>02/29/2004</ngaysinh>
+		<lop>CTK46</lop>
+		<socmnd>123000004</socmnd>
+		<sdt>0724100004</sdt>
+		<diachi>Hưng Yên</diachi>
+		<gioitinh>1</gioitinh>
+		<monhocdk>
+			<mon>Mạng máy tính</mon>
+			<mon>Hệ điều hành</mon>
+			<mon>Đồ án cơ sở</mon>
+			<mon>Lập trình mạng</mon>
+		</monhocdk>
+	</sinhvien>
+	<sinhvien>
+		<mssv>2210005</mssv>
+		<hotenlot>Nguyễn Thiên</hotenlot>
+		<ten>Nam</ten>
+		<ngaysinh>09/27/2004</ngaysinh>
+		<lop>CTK46</lop>
+		<socmnd>123000005</socmnd>
+		<sdt>0329100001</sdt>
+		<diachi>Đà Lạt</diachi>
+		<gioitinh>1</gioitinh>
+		<monhocdk>
+			<mon>Mạng máy tính</mon>
+			<mon>Lập trình mạng</mon>
+			<mon>Hệ điều hành</mon>
+		</monhocdk>
+	</sinhvien>
+	<sinhvien>
+		<mssv>2310001</mssv>
+		<hotenlot>Nguyễn Trường</hotenlot>
+		<ten>Giang</ten>
+		<ngaysinh>04/30/2005</ngaysinh>
+		<lop>CTK47</lop>
+		<socmnd>124000001</socmnd>
+		<sdt>0984100005</sdt>
+		<diachi>Đà Lạt</diachi>
+		<gioitinh>1</gioitinh>
+		<monhocdk>
+			<mon>Lập trình trên thiết bị di động</mon>
+			<mon>Đồ án cơ sở</mon>
+			<mon>Hệ điều hành</mon>
+		</monhocdk>
+	</sinhvien>
+	<sinhvien>
+		<mssv>2310002</mssv>
+		<hotenlot>Lê Thuỳ Lan</hotenlot>
+		<ten>Chi</ten>
+		<ngaysinh>09/27/2005</ngaysinh>
+		<lop>CTK47</lop>
+		<socmnd>124000002</socmnd>
+		<sdt>0324100004</sdt>
+		<diachi>Đà Lạt</diachi>
+		<gioitinh>0</gioitinh>
+		<monhocdk>
+			<mon>Mạng máy tính</mon>
+			<mon>Lập trình mạng</mon>
+			<mon>Hệ điều hành</mon>
+		</monhocdk>
+	</sinhvien>
+	<sinhvien>
+		<mssv>2410001</mssv>
+		<hotenlot>Hứa Duy</hotenlot>
+		<ten>Băng</ten>
+		<ngaysinh>10/20/2006</ngaysinh>
+		<lop>CTK48</lop>
+		<socmnd>125000001</socmnd>
+		<sdt>0624000011</sdt>
+		<diachi>Hà Nội</diachi>
+		<gioitinh>1</gioitinh>
+		<monhocdk>
+			<mon>Mạng máy tính</mon>
+			<mon>Lập trình mạng</mon>
+			<mon>Lập trình CSDL</mon>
+		</monhocdk>
+	</sinhvien>
+	<sinhvien>
+		<mssv>2410002</mssv>
+		<hotenlot>Trần Ngân</hotenlot>
+		<ten>Nguyệt</ten>
+		<ngaysinh>01/30/2006</ngaysinh>
+		<lop>CTK48</lop>
+		<socmnd>125000002</socmnd>
+		<sdt>0924100011</sdt>
+		<diachi>Hưng Yên</diachi>
+		<gioitinh>0</gioitinh>
+		<monhocdk>
+			<mon>An toàn và bảo mật hệ thống</mon>
+			<mon>Hệ điều hành</mon>
+			<mon>Lập trình CSDL</mon>
+		</monhocdk>
+	</sinhvien>
+</dssinhvien>

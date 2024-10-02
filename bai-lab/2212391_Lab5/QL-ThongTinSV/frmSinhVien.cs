@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -54,7 +55,7 @@ namespace QL_ThongTinSV
             sv.MSSV = lvitem.SubItems[0].Text;
             sv.HoTenLot = lvitem.SubItems[1].Text;
             sv.Ten = lvitem.SubItems[2].Text;
-            sv.NgaySinh = DateTime.Parse(lvitem.SubItems[3].Text);
+            sv.NgaySinh = DateTime.ParseExact(lvitem.SubItems[3].Text, "dd/MM/yyyy",CultureInfo.InvariantCulture);
             sv.Lop = lvitem.SubItems[4].Text;
             sv.SoCMND = lvitem.SubItems[5].Text;
             sv.SDT = lvitem.SubItems[6].Text;
@@ -87,11 +88,11 @@ namespace QL_ThongTinSV
                 this.rdNam.Checked = true;
             else
                 this.rdNu.Checked = true;
-            for (int i = 0; i <= clbMonDK.Items.Count; i++)
+            for (int i = 0; i < clbMonDK.Items.Count; i++)
                 this.clbMonDK.SetItemChecked(i, false);
             foreach (string mon in sv.MonHocDK)
             {
-                for (int i = 0; i <= this.clbMonDK.Items.Count; i++)
+                for (int i = 0; i <= this.clbMonDK.Items.Count - 1; i++)
                     if (mon.CompareTo(this.clbMonDK.Items[i]) == 0)
                         this.clbMonDK.SetItemChecked(i, true);
             }
@@ -114,20 +115,26 @@ namespace QL_ThongTinSV
             lvitem.SubItems.Add(gt);
             foreach (string mon in sv.MonHocDK)
             {
-                mdk += mon + ", ";
+                mdk += mon + ",";
             }
             lvitem.SubItems.Add(mdk);
 
             this.lvSinhVien.Items.Add(lvitem);
         }
 
-        private void TaiListView ()
+        private void TaiListView (QLSinhVien ds)
         {
             this.lvSinhVien.Items.Clear();
-            foreach (SinhVien sv in dssv.DSSV)
+            foreach (SinhVien sv in ds.DSSV)
             {
                 ThemSV_LV(sv);
             }
+        }
+
+        private int SoSanhTheoMa(object obj1, object obj2)
+        {
+            SinhVien sv = obj2 as SinhVien;
+            return sv.MSSV.CompareTo(obj1);
         }
 
         #endregion
@@ -138,22 +145,64 @@ namespace QL_ThongTinSV
         {
             dssv = new QLSinhVien();
             //dssv.DocFile_TXT("du-lieu\\DSSinhVien.txt");
-            dssv.DocFile_Json("du-lieu\\DSSinhVien.json");
-            TaiListView();
+            //dssv.DocFile_Json("du-lieu\\DSSinhVien.json");
+            dssv.DocFile_XML("du-lieu\\DSSinhVien.xml");
+            TaiListView(dssv);
         }
 
-        private void btnThem_Click(object sender, EventArgs e)
+        private void btnThem_Click_1(object sender, EventArgs e)
         {
+            if (
+                string.IsNullOrEmpty(mtxtMSSV.Text) ||
+                string.IsNullOrEmpty(txtHoTenLot.Text) ||
+                string.IsNullOrEmpty(txtTen.Text) ||
+                string.IsNullOrEmpty(cboLop.Text) ||
+                dtpNgaySinh.Value == DateTime.Now ||
+                string.IsNullOrEmpty(mtxtCMND.Text) ||
+                string.IsNullOrEmpty(mtxtSDT.Text) ||
+                string.IsNullOrEmpty(txtDiaChi.Text) ||
+                clbMonDK.Items.Count == 0
+              )
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin sinh viên!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            else
+            {
+                SinhVien sv = LayTTSV_Controls();
+                SinhVien kq = dssv.Tim1SV(sv.MSSV, SoSanhTheoMa);
 
+                if (kq != null)
+                    MessageBox.Show("Mã sinh viên đã tồn tại!", "Lỗi thêm sinh viên", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else
+                {
+                    this.dssv.ThemSV(sv);
+                    this.TaiListView(dssv);
+                    this.dssv.GhiFile_TXT("du-lieu\\DSSinhVien.txt");
+                }
+            }
         }
 
         private void btnThoat_Click_1(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát?", "Xác nhận", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (result == DialogResult.OK) 
+                Application.Exit();
         }
 
-
+        private void lvSinhVien_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int count = this.lvSinhVien.SelectedItems.Count;
+            if (count > 0)
+            {
+                ListViewItem lviem = this.lvSinhVien.SelectedItems[0];
+                SinhVien sv = LayTTSV_LV(lviem);
+                ThietLapTT_Control(sv);
+            }
+        }
 
         #endregion
+
+
     }
 }

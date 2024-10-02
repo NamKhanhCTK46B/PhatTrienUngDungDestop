@@ -37,5 +37,10 @@ namespace QL_ThongTinSV
             this.GioiTinh = gioiTinh;
             this.MonHocDK = monHocDK;
         }
+
+        public override string ToString()
+        {
+            return $"{MSSV}*{HoTenLot}*{Ten}*{NgaySinh:dd/MM/yyyy}*{Lop}*{SoCMND}*{SDT}*{DiaChi}*{(GioiTinh ? "1" : "0")}*{ string.Join(",", MonHocDK) }";
+        }
     }
 }

@@ -6,6 +6,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Linq;
 
 namespace QL_ThongTinSV
 {
@@ -40,7 +42,7 @@ namespace QL_ThongTinSV
             }
         }
 
-        public SinhVien Tim (object obj, SoSanh ss)
+        public SinhVien Tim1SV (object obj, SoSanh ss)
         {
             SinhVien kq = null;
             foreach (SinhVien sv in DSSV)
@@ -50,6 +52,17 @@ namespace QL_ThongTinSV
                     kq = sv;
                     break;
                 }
+            }
+            return kq;
+        }
+
+        public QLSinhVien TimDSSV (object obj, SoSanh ss)
+        {
+            QLSinhVien kq = new QLSinhVien();
+            foreach (SinhVien sv in DSSV)
+            {
+                if(ss(obj,sv) == 0)
+                    kq.ThemSV(sv);   
             }
             return kq;
         }
@@ -104,6 +117,15 @@ namespace QL_ThongTinSV
             sr.Close();
         }
 
+        public void GhiFile_TXT (string part)
+        {
+            using (StreamWriter wr = new StreamWriter(part))
+            {
+                foreach (SinhVien sv in DSSV)
+                    wr.WriteLine(sv.ToString());
+            }
+        }
+
         public void DocFile_Json (string tenFile)
         {
             //Cách 1
@@ -141,6 +163,59 @@ namespace QL_ThongTinSV
 
                 foreach (var sv in ds)
                     ThemSV(sv);
+            }
+        }
+
+        public void DocFile_XML(string tenFile)
+        {
+            //var xmlDoc = new XmlDocument();
+            //xmlDoc.LoadXml(tenFile);
+
+            //var nodeList = xmlDoc.DocumentElement.SelectNodes("/dssinhvien/sinhvien");
+
+            //foreach (XmlNode node in nodeList)
+            //{
+            //    SinhVien sv = new SinhVien();
+
+            //    sv.MSSV = node.Attributes["mssv"].InnerText;
+            //    sv.HoTenLot = node.SelectSingleNode("hotenlot").InnerText;
+            //    sv.Ten = node.SelectSingleNode("ten").InnerText;
+            //    sv.NgaySinh = DateTime.Parse(node.SelectSingleNode("ngaysinh").InnerText);
+            //    sv.Lop = node.SelectSingleNode("lop").InnerText;
+            //    sv.SoCMND = node.SelectSingleNode("socmnd").InnerText;
+            //    sv.SDT = node.SelectSingleNode("sdt").InnerText;
+            //    sv.DiaChi = node.SelectSingleNode("diachi").InnerText;
+            //    sv.GioiTinh = false;
+            //    if (node.SelectSingleNode("gioitinh").InnerText == "1")
+            //        sv.GioiTinh = true;
+            //    XmlNodeList mon = node.SelectNodes("monhocdk/mon");
+            //    foreach (XmlNode m in mon)
+            //    {
+            //        sv.MonHocDK.Add(m.InnerText);
+            //    }
+
+            //    ThemSV(sv);
+            //}
+
+            XDocument xmlDoc = XDocument.Load(tenFile);
+
+            var dssv = from sinhvien in xmlDoc.Descendants("sinhvien")
+                       select new SinhVien
+                       {
+                           MSSV = (string)sinhvien.Element("mssv"),
+                           HoTenLot = (string)sinhvien.Element("hotenlot"),
+                           Ten = (string)sinhvien.Element("ten"),
+                           NgaySinh = DateTime.Parse((string)sinhvien.Element("ngaysinh")),
+                           Lop = (string)sinhvien.Element("lop"),
+                           SoCMND = (string)sinhvien.Element("socmnd"),
+                           SDT = (string)sinhvien.Element("sdt"),
+                           DiaChi = (string)sinhvien.Element("diachi"),
+                           GioiTinh = (string)sinhvien.Element("gioitinh") == "1",
+                           MonHocDK = sinhvien.Element("monhocdk").Elements("mon").Select(mon => (string)mon).ToList()
+                       };
+            foreach (var sv in dssv)
+            {
+                ThemSV(sv);
             }
         }
     }
