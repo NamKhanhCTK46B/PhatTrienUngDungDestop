@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,13 +15,17 @@ namespace QL_ThongTinSV
 {
     public partial class frmSinhVien : Form
     {
+
         public frmSinhVien()
         {
             InitializeComponent();
+
+
         }
 
         #region Phương thức bổ trợ
         QLSinhVien dssv;
+
         private SinhVien LayTTSV_Controls()
         {
             SinhVien sv = new SinhVien();
@@ -33,7 +38,7 @@ namespace QL_ThongTinSV
             sv.NgaySinh = this.dtpNgaySinh.Value;
             sv.Lop = this.cboLop.Text;
             sv.SoCMND = this.mtxtCMND.Text;
-            sv.SDT = this.mtxtMSSV.Text;
+            sv.SDT = this.mtxtSDT.Text;
             sv.DiaChi = this.txtDiaChi.Text;
             if (rdNam.Checked)
                 gt = true;
@@ -122,10 +127,10 @@ namespace QL_ThongTinSV
             this.lvSinhVien.Items.Add(lvitem);
         }
 
-        private void TaiListView (QLSinhVien ds)
+        private void TaiListView ()
         {
             this.lvSinhVien.Items.Clear();
-            foreach (SinhVien sv in ds.DSSV)
+            foreach (SinhVien sv in dssv.DSSV)
             {
                 ThemSV_LV(sv);
             }
@@ -147,7 +152,7 @@ namespace QL_ThongTinSV
             //dssv.DocFile_TXT("du-lieu\\DSSinhVien.txt");
             //dssv.DocFile_Json("du-lieu\\DSSinhVien.json");
             dssv.DocFile_XML("du-lieu\\DSSinhVien.xml");
-            TaiListView(dssv);
+            TaiListView();
         }
 
         private void btnThem_Click_1(object sender, EventArgs e)
@@ -177,7 +182,7 @@ namespace QL_ThongTinSV
                 else
                 {
                     this.dssv.ThemSV(sv);
-                    this.TaiListView(dssv);
+                    this.TaiListView();
                     this.dssv.GhiFile_TXT("du-lieu\\DSSinhVien.txt");
                 }
             }
@@ -198,6 +203,71 @@ namespace QL_ThongTinSV
                 ListViewItem lviem = this.lvSinhVien.SelectedItems[0];
                 SinhVien sv = LayTTSV_LV(lviem);
                 ThietLapTT_Control(sv);
+            }
+        }
+
+        private void btnCapNhat_Click(object sender, EventArgs e)
+        {
+            if (
+                string.IsNullOrEmpty(mtxtMSSV.Text) ||
+                string.IsNullOrEmpty(txtHoTenLot.Text) ||
+                string.IsNullOrEmpty(txtTen.Text) ||
+                string.IsNullOrEmpty(cboLop.Text) ||
+                dtpNgaySinh.Value == DateTime.Now ||
+                string.IsNullOrEmpty(mtxtCMND.Text) ||
+                string.IsNullOrEmpty(mtxtSDT.Text) ||
+                string.IsNullOrEmpty(txtDiaChi.Text) ||
+                clbMonDK.Items.Count == 0
+              )
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin sinh viên!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            else
+            {
+                SinhVien sv = LayTTSV_Controls();
+                bool kq;
+                kq = dssv.Sua(sv, sv.MSSV, delegate(object obj1, object obj2) { return (obj2 as SinhVien).MSSV.CompareTo(obj1.ToString()); } );
+                if (kq == true)
+                {
+                    this.TaiListView();
+                    dssv.GhiFile_TXT("du-lieu\\DSSinhVien.txt");
+                }
+                else
+                {
+                    MessageBox.Show("Cập nhật thất bại","Thông báo",MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+        }
+
+        private void tsmiXoa_Click(object sender, EventArgs e)
+        {
+            int count, i;
+            ListViewItem lvitem;
+            count = this.lvSinhVien.Items.Count - 1;
+            for (i = count; i >= 0; i--)
+            {
+                lvitem = this.lvSinhVien.Items[i];
+                if (lvitem.Checked)
+                    dssv.Xoa(lvitem.SubItems[0].Text, SoSanhTheoMa);
+            }
+            this.TaiListView();
+            dssv.GhiFile_TXT("du-lieu\\DSSinhVien.txt");
+
+        }
+
+        private void tsmiTaiLaiDS_Click(object sender, EventArgs e)
+        {
+            dssv.DocFile_TXT("du-lieu\\DSSinhVien.txt");
+            TaiListView();
+        }
+
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            Form tk = new frmTimKiem();
+            if (tk.ShowDialog() == DialogResult.OK)
+            {
+                //string tentk = ;
             }
         }
 

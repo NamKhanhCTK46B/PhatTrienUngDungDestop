@@ -2,12 +2,14 @@
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
+using System.Xml.Serialization;
 
 namespace QL_ThongTinSV
 {
@@ -56,13 +58,17 @@ namespace QL_ThongTinSV
             return kq;
         }
 
-        public QLSinhVien TimDSSV (object obj, SoSanh ss)
+        public QLSinhVien TimDSSV (string mssv, string ten, string lop)
         {
             QLSinhVien kq = new QLSinhVien();
             foreach (SinhVien sv in DSSV)
             {
-                if(ss(obj,sv) == 0)
-                    kq.ThemSV(sv);   
+                if (
+                      (string.IsNullOrEmpty(mssv) || sv.MSSV.Contains(mssv)) &&
+                      (string.IsNullOrEmpty(ten) || sv.Ten.Contains(ten)) &&
+                      (string.IsNullOrEmpty(lop) || sv.Lop.Contains(lop))
+                   )
+                    kq.ThemSV(sv);
             }
             return kq;
         }
@@ -74,47 +80,72 @@ namespace QL_ThongTinSV
             count = this.DSSV.Count - 1;
 
             for (i = 0; i < count; i++)
+            {
                 if (ss(obj, this[i]) == 0)
                 {
                     this[i] = svSua;
-                    kq= true;
+                    kq = true;
                     break;
                 }
-
+            }
             return kq;
         }
 
         public void DocFile_TXT (string tenFile)
         {
-            string t;
-            string[] s;
-            SinhVien sv;
-            StreamReader sr = new StreamReader(new FileStream(tenFile, FileMode.Open));
+            //string t;
+            //string[] s;
+            //SinhVien sv;
+            //StreamReader sr = new StreamReader(new FileStream(tenFile, FileMode.Open));
 
-            while ((t = sr.ReadLine()) != null)
+            //while ((t = sr.ReadLine()) != null)
+            //{
+            //    s = t.Split('*');
+            //    sv = new SinhVien();
+
+            //    sv.MSSV = s[0];
+            //    sv.HoTenLot = s[1];
+            //    sv.Ten = s[2];
+            //    sv.NgaySinh = DateTime.Parse(s[3]);
+            //    sv.Lop = s[4];
+            //    sv.SoCMND = s[5];
+            //    sv.SDT = s[6];
+            //    sv.DiaChi = s[7];
+            //    sv.GioiTinh = false;
+            //    if (s[8] == "1")
+            //        sv.GioiTinh= true;
+            //    string[] mondk = s[9].Split(',');
+            //    foreach (string m in mondk)
+            //        sv.MonHocDK.Add(m);
+
+            //    this.ThemSV(sv);
+            //}
+
+            //sr.Close();
+
+            using (StreamReader sr = new StreamReader(tenFile))
             {
-                s = t.Split('*');
-                sv = new SinhVien();
-
-                sv.MSSV = s[0];
-                sv.HoTenLot = s[1];
-                sv.Ten = s[2];
-                sv.NgaySinh = DateTime.Parse(s[3]);
-                sv.Lop = s[4];
-                sv.SoCMND = s[5];
-                sv.SDT = s[6];
-                sv.DiaChi = s[7];
-                sv.GioiTinh = false;
-                if (s[8] == "1")
-                    sv.GioiTinh= true;
-                string[] mondk = s[9].Split(',');
-                foreach (string m in mondk)
-                    sv.MonHocDK.Add(m);
-
-                this.ThemSV(sv);
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    var s = line.Split('*');
+                    SinhVien sv = new SinhVien
+                    {
+                        MSSV = s[0],
+                        HoTenLot = s[1],
+                        Ten = s[2],
+                        NgaySinh = DateTime.ParseExact(s[3],"dd/MM/yyyy", CultureInfo.InvariantCulture),
+                        Lop = s[4],
+                        SoCMND = s[5],
+                        SDT = s[6],
+                        DiaChi = s[7],
+                        GioiTinh = s[8] == "1",
+                        MonHocDK = s[9].Split(',').ToList(),
+                    };
+                    ThemSV(sv);
+                }
             }
-
-            sr.Close();
+            
         }
 
         public void GhiFile_TXT (string part)
@@ -164,6 +195,12 @@ namespace QL_ThongTinSV
                 foreach (var sv in ds)
                     ThemSV(sv);
             }
+        }
+
+        public void GhiFile_Json(string path)
+        {
+            string json = JsonConvert.SerializeObject(DSSV);
+            System.IO.File.WriteAllText(path, json);
         }
 
         public void DocFile_XML(string tenFile)
@@ -217,6 +254,16 @@ namespace QL_ThongTinSV
             {
                 ThemSV(sv);
             }
+        }
+
+        public void GhiFile_XML (string parth)
+        {
+            var serializer = new XmlSerializer(typeof(List<SinhVien>));
+            using (var writer = new StreamWriter(parth))
+            {
+                serializer.Serialize(writer, DSSV, null);
+                writer.Close();
+            }    
         }
     }
 }

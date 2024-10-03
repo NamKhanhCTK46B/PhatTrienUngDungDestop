@@ -179,6 +179,7 @@
             this.btnCapNhat.TabIndex = 64;
             this.btnCapNhat.Text = "Cập nhật";
             this.btnCapNhat.UseVisualStyleBackColor = true;
+            this.btnCapNhat.Click += new System.EventHandler(this.btnCapNhat_Click);
             // 
             // btnThoat
             // 
@@ -202,6 +203,7 @@
             this.btnTimKiem.TabIndex = 62;
             this.btnTimKiem.Text = "Tìm kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = true;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // label9
             // 
@@ -411,6 +413,7 @@
             this.columnHeader7,
             this.columnHeader8,
             this.columnHeader9});
+            this.lvSinhVien.ContextMenuStrip = this.contextMenuStrip1;
             this.lvSinhVien.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvSinhVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvSinhVien.GridLines = true;
@@ -487,14 +490,16 @@
             // tsmiXoa
             // 
             this.tsmiXoa.Name = "tsmiXoa";
-            this.tsmiXoa.Size = new System.Drawing.Size(137, 24);
+            this.tsmiXoa.Size = new System.Drawing.Size(210, 24);
             this.tsmiXoa.Text = "Xoá";
+            this.tsmiXoa.Click += new System.EventHandler(this.tsmiXoa_Click);
             // 
             // tsmiTaiLaiDS
             // 
             this.tsmiTaiLaiDS.Name = "tsmiTaiLaiDS";
-            this.tsmiTaiLaiDS.Size = new System.Drawing.Size(137, 24);
+            this.tsmiTaiLaiDS.Size = new System.Drawing.Size(210, 24);
             this.tsmiTaiLaiDS.Text = "Tải lại ds";
+            this.tsmiTaiLaiDS.Click += new System.EventHandler(this.tsmiTaiLaiDS_Click);
             // 
             // frmSinhVien
             // 
