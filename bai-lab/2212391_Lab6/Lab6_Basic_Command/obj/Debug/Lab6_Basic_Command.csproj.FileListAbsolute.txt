@@ -1,0 +1,11 @@
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab6\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.csproj.AssemblyReference.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab6\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.Form1.resources
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab6\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.Properties.Resources.resources
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab6\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.csproj.GenerateResource.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab6\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.csproj.CoreCompileInputs.cache
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab6\Lab6_Basic_Command\bin\Debug\Lab6_Basic_Command.exe.config
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab6\Lab6_Basic_Command\bin\Debug\Lab6_Basic_Command.exe
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab6\Lab6_Basic_Command\bin\Debug\Lab6_Basic_Command.pdb
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab6\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.exe
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab6\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.pdb
+F:\đại học\phát triển ứng dụng desktop\bài lab\2212391_lab6\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.frmFood.resources

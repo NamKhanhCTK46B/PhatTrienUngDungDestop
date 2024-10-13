@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA08D8D-051F-4F65-8553-866E8DE9F219}|Lab6_Basic_Command\\Lab6_Basic_Command.csproj|F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab6\\lab6_basic_command\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2EA08D8D-051F-4F65-8553-866E8DE9F219}|Lab6_Basic_Command\\Lab6_Basic_Command.csproj|solutionrelative:lab6_basic_command\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA08D8D-051F-4F65-8553-866E8DE9F219}|Lab6_Basic_Command\\Lab6_Basic_Command.csproj|f:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_lab6\\lab6_basic_command\\frmfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2EA08D8D-051F-4F65-8553-866E8DE9F219}|Lab6_Basic_Command\\Lab6_Basic_Command.csproj|solutionrelative:lab6_basic_command\\frmfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA08D8D-051F-4F65-8553-866E8DE9F219}|Lab6_Basic_Command\\Lab6_Basic_Command.csproj|f:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_lab6\\lab6_basic_command\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EA08D8D-051F-4F65-8553-866E8DE9F219}|Lab6_Basic_Command\\Lab6_Basic_Command.csproj|solutionrelative:lab6_basic_command\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA08D8D-051F-4F65-8553-866E8DE9F219}|Lab6_Basic_Command\\Lab6_Basic_Command.csproj|f:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_lab6\\lab6_basic_command\\frmfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EA08D8D-051F-4F65-8553-866E8DE9F219}|Lab6_Basic_Command\\Lab6_Basic_Command.csproj|solutionrelative:lab6_basic_command\\frmfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmFood.cs",
+              "DocumentMoniker": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab6\\Lab6_Basic_Command\\frmFood.cs",
+              "RelativeDocumentMoniker": "Lab6_Basic_Command\\frmFood.cs",
+              "ToolTip": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab6\\Lab6_Basic_Command\\frmFood.cs",
+              "RelativeToolTip": "Lab6_Basic_Command\\frmFood.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T03:38:11.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmFood.cs [Design]",
+              "DocumentMoniker": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab6\\Lab6_Basic_Command\\frmFood.cs",
+              "RelativeDocumentMoniker": "Lab6_Basic_Command\\frmFood.cs",
+              "ToolTip": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab6\\Lab6_Basic_Command\\frmFood.cs [Design]",
+              "RelativeToolTip": "Lab6_Basic_Command\\frmFood.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T03:36:53.722Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab6\\Lab6_Basic_Command\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab6_Basic_Command\\Form1.cs",
+              "ToolTip": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab6\\Lab6_Basic_Command\\Form1.cs*",
+              "RelativeToolTip": "Lab6_Basic_Command\\Form1.cs*",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAqwLgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T01:12:04.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab6\\Lab6_Basic_Command\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab6_Basic_Command\\Form1.cs",
+              "ToolTip": "F:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab6\\Lab6_Basic_Command\\Form1.cs [Design]*",
+              "RelativeToolTip": "Lab6_Basic_Command\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T01:03:05.288Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
