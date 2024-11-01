@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B4F7D0-4356-462E-8A67-A6952D8B0680}|Lab7_Advanced_Command\\Lab7_Advanced_Command.csproj|D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\lab7_advanced_command\\foodinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8B4F7D0-4356-462E-8A67-A6952D8B0680}|Lab7_Advanced_Command\\Lab7_Advanced_Command.csproj|solutionrelative:lab7_advanced_command\\foodinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B4F7D0-4356-462E-8A67-A6952D8B0680}|Lab7_Advanced_Command\\Lab7_Advanced_Command.csproj|d:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\lab7_advanced_command\\lab7_advanced_command\\frmfoodcategoryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8B4F7D0-4356-462E-8A67-A6952D8B0680}|Lab7_Advanced_Command\\Lab7_Advanced_Command.csproj|solutionrelative:lab7_advanced_command\\frmfoodcategoryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B4F7D0-4356-462E-8A67-A6952D8B0680}|Lab7_Advanced_Command\\Lab7_Advanced_Command.csproj|d:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\lab7_advanced_command\\lab7_advanced_command\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8B4F7D0-4356-462E-8A67-A6952D8B0680}|Lab7_Advanced_Command\\Lab7_Advanced_Command.csproj|solutionrelative:lab7_advanced_command\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B4F7D0-4356-462E-8A67-A6952D8B0680}|Lab7_Advanced_Command\\Lab7_Advanced_Command.csproj|D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\lab7_advanced_command\\foodinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8B4F7D0-4356-462E-8A67-A6952D8B0680}|Lab7_Advanced_Command\\Lab7_Advanced_Command.csproj|solutionrelative:lab7_advanced_command\\foodinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B4F7D0-4356-462E-8A67-A6952D8B0680}|Lab7_Advanced_Command\\Lab7_Advanced_Command.csproj|d:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\lab7_advanced_command\\lab7_advanced_command\\frmfoodcategoryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8B4F7D0-4356-462E-8A67-A6952D8B0680}|Lab7_Advanced_Command\\Lab7_Advanced_Command.csproj|solutionrelative:lab7_advanced_command\\frmfoodcategoryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B4F7D0-4356-462E-8A67-A6952D8B0680}|Lab7_Advanced_Command\\Lab7_Advanced_Command.csproj|D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\lab7_advanced_command\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8B4F7D0-4356-462E-8A67-A6952D8B0680}|Lab7_Advanced_Command\\Lab7_Advanced_Command.csproj|solutionrelative:lab7_advanced_command\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FoodInfoForm.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\Lab7_Advanced_Command\\FoodInfoForm.cs",
+              "RelativeDocumentMoniker": "Lab7_Advanced_Command\\FoodInfoForm.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\Lab7_Advanced_Command\\FoodInfoForm.cs",
+              "RelativeToolTip": "Lab7_Advanced_Command\\FoodInfoForm.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAMkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:54:14.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FoodInfoForm.cs [Design]",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\Lab7_Advanced_Command\\FoodInfoForm.cs",
+              "RelativeDocumentMoniker": "Lab7_Advanced_Command\\FoodInfoForm.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\Lab7_Advanced_Command\\FoodInfoForm.cs [Design]",
+              "RelativeToolTip": "Lab7_Advanced_Command\\FoodInfoForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:40:50.284Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\Lab7_Advanced_Command\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab7_Advanced_Command\\Form1.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\Lab7_Advanced_Command\\Form1.cs",
+              "RelativeToolTip": "Lab7_Advanced_Command\\Form1.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAzwKIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:50:46.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmFoodCategoryInfo.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\Lab7_Advanced_Command\\frmFoodCategoryInfo.cs",
+              "RelativeDocumentMoniker": "Lab7_Advanced_Command\\frmFoodCategoryInfo.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\Lab7_Advanced_Command\\frmFoodCategoryInfo.cs",
+              "RelativeToolTip": "Lab7_Advanced_Command\\frmFoodCategoryInfo.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowD0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T01:00:27.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmFoodCategoryInfo.cs [Design]",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\Lab7_Advanced_Command\\frmFoodCategoryInfo.cs",
+              "RelativeDocumentMoniker": "Lab7_Advanced_Command\\frmFoodCategoryInfo.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\Lab7_Advanced_Command\\frmFoodCategoryInfo.cs [Design]",
+              "RelativeToolTip": "Lab7_Advanced_Command\\frmFoodCategoryInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T00:46:30.249Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\Lab7_Advanced_Command\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab7_Advanced_Command\\Form1.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\Lab7_Advanced_Command\\Lab7_Advanced_Command\\Form1.cs [Design]",
+              "RelativeToolTip": "Lab7_Advanced_Command\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:46:09.199Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
