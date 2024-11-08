@@ -1,0 +1,9 @@
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\BusinessLogic\bin\Debug\DataAccess.dll
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\BusinessLogic\bin\Debug\DataAccess.pdb
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\BusinessLogic\obj\Debug\Business.CF5D6E35.Up2Date
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\BusinessLogic\obj\Debug\BusinessLogic.pdb

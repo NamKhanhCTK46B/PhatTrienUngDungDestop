@@ -1,0 +1,15 @@
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.exe.config
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.exe
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.pdb
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\bin\Debug\BusinessLogic.dll
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\bin\Debug\DataAccess.dll
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\bin\Debug\BusinessLogic.pdb
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\bin\Debug\DataAccess.pdb
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.AssemblyReference.cache
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.Properties.Resources.resources
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.GenerateResource.cache
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.CoreCompileInputs.cache
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\obj\Debug\Restaura.A8B340B1.Up2Date
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.exe
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.pdb
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.frmFood.resources

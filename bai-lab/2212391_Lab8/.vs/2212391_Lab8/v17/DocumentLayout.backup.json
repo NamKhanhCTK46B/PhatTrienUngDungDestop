@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{217C703F-F291-4386-95D9-8EBA256F07EF}|RestaurantManagementProject\\RestaurantManagementProject.csproj|d:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_lab8\\restaurantmanagementproject\\frmfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{217C703F-F291-4386-95D9-8EBA256F07EF}|RestaurantManagementProject\\RestaurantManagementProject.csproj|solutionrelative:restaurantmanagementproject\\frmfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{217C703F-F291-4386-95D9-8EBA256F07EF}|RestaurantManagementProject\\RestaurantManagementProject.csproj|d:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_lab8\\restaurantmanagementproject\\frmfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{217C703F-F291-4386-95D9-8EBA256F07EF}|RestaurantManagementProject\\RestaurantManagementProject.csproj|solutionrelative:restaurantmanagementproject\\frmfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F92484BD-2DC9-4EB1-88A7-1B9515E4D4FE}|DataAccess\\DataAccess.csproj|d:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_lab8\\dataaccess\\foodda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F92484BD-2DC9-4EB1-88A7-1B9515E4D4FE}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\foodda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AD6F79-F807-4A6D-9228-1A5883924A9D}|BusinessLogic\\BusinessLogic.csproj|d:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_lab8\\businesslogic\\foodbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AD6F79-F807-4A6D-9228-1A5883924A9D}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\foodbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17AD6F79-F807-4A6D-9228-1A5883924A9D}|BusinessLogic\\BusinessLogic.csproj|d:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_lab8\\businesslogic\\categorybl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17AD6F79-F807-4A6D-9228-1A5883924A9D}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\categorybl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FoodDA.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab8\\DataAccess\\FoodDA.cs",
+              "RelativeDocumentMoniker": "DataAccess\\FoodDA.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab8\\DataAccess\\FoodDA.cs",
+              "RelativeToolTip": "DataAccess\\FoodDA.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwDgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T03:16:20.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmFood.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab8\\RestaurantManagementProject\\frmFood.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementProject\\frmFood.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab8\\RestaurantManagementProject\\frmFood.cs",
+              "RelativeToolTip": "RestaurantManagementProject\\frmFood.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAzwJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T01:55:34.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmFood.cs [Design]",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab8\\RestaurantManagementProject\\frmFood.cs",
+              "RelativeDocumentMoniker": "RestaurantManagementProject\\frmFood.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab8\\RestaurantManagementProject\\frmFood.cs [Design]",
+              "RelativeToolTip": "RestaurantManagementProject\\frmFood.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T14:42:16.438Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryBL.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab8\\BusinessLogic\\CategoryBL.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\CategoryBL.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab8\\BusinessLogic\\CategoryBL.cs",
+              "RelativeToolTip": "BusinessLogic\\CategoryBL.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T14:51:14.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FoodBL.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab8\\BusinessLogic\\FoodBL.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\FoodBL.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i lab\\2212391_Lab8\\BusinessLogic\\FoodBL.cs",
+              "RelativeToolTip": "BusinessLogic\\FoodBL.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T01:14:55.783Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

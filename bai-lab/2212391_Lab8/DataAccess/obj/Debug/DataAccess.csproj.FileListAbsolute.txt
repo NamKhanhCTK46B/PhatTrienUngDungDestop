@@ -1,0 +1,6 @@
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\DataAccess\bin\Debug\DataAccess.dll
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\DataAccess\bin\Debug\DataAccess.pdb
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\DataAccess\obj\Debug\DataAccess.dll
+D:\đại học\phát triển ứng dụng desktop\bài lab\2212391_Lab8\DataAccess\obj\Debug\DataAccess.pdb
