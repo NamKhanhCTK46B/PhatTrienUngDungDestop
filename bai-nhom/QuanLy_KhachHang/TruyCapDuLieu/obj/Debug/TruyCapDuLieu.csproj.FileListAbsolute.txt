@@ -1,0 +1,6 @@
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\TruyCapDuLieu\obj\Debug\TruyCapDuLieu.csproj.AssemblyReference.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\TruyCapDuLieu\obj\Debug\TruyCapDuLieu.csproj.CoreCompileInputs.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\TruyCapDuLieu\bin\Debug\TruyCapDuLieu.dll
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\TruyCapDuLieu\bin\Debug\TruyCapDuLieu.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\TruyCapDuLieu\obj\Debug\TruyCapDuLieu.dll
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\TruyCapDuLieu\obj\Debug\TruyCapDuLieu.pdb

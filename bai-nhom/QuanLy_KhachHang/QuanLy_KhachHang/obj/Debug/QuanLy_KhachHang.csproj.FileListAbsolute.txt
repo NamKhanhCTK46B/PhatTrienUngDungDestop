@@ -1,0 +1,15 @@
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\obj\Debug\QuanLy_KhachHang.csproj.AssemblyReference.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\obj\Debug\QuanLy_KhachHang.frmKhachHang.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\obj\Debug\QuanLy_KhachHang.Properties.Resources.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\obj\Debug\QuanLy_KhachHang.csproj.GenerateResource.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\obj\Debug\QuanLy_KhachHang.csproj.CoreCompileInputs.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\bin\Debug\QuanLy_KhachHang.exe.config
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\bin\Debug\QuanLy_KhachHang.exe
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\bin\Debug\QuanLy_KhachHang.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\bin\Debug\XuLy.dll
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\bin\Debug\TruyCapDuLieu.dll
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\bin\Debug\XuLy.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\bin\Debug\TruyCapDuLieu.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\obj\Debug\QuanLy_K.3583D4F9.Up2Date
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\obj\Debug\QuanLy_KhachHang.exe
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLy_KhachHang\QuanLy_KhachHang\obj\Debug\QuanLy_KhachHang.pdb

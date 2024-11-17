@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{885FF734-9B37-4534-A532-9E6CFCA5C7DE}|QuanLy_KhachHang\\QuanLy_KhachHang.csproj|d:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\quanly_khachhang\\quanly_khachhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{885FF734-9B37-4534-A532-9E6CFCA5C7DE}|QuanLy_KhachHang\\QuanLy_KhachHang.csproj|solutionrelative:quanly_khachhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885FF734-9B37-4534-A532-9E6CFCA5C7DE}|QuanLy_KhachHang\\QuanLy_KhachHang.csproj|D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\quanly_khachhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885FF734-9B37-4534-A532-9E6CFCA5C7DE}|QuanLy_KhachHang\\QuanLy_KhachHang.csproj|solutionrelative:quanly_khachhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C13057-B96B-499C-B8D0-F6B264F3713D}|TruyCapDuLieu\\TruyCapDuLieu.csproj|D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\truycapdulieu\\cacloptruyxuatdulieu\\khachhangdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C13057-B96B-499C-B8D0-F6B264F3713D}|TruyCapDuLieu\\TruyCapDuLieu.csproj|solutionrelative:truycapdulieu\\cacloptruyxuatdulieu\\khachhangdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A76C465-BED9-4992-ACFD-CDD5AA81DF7B}|XuLy\\XuLy.csproj|d:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\quanly_khachhang\\xuly\\khachhangxl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A76C465-BED9-4992-ACFD-CDD5AA81DF7B}|XuLy\\XuLy.csproj|solutionrelative:xuly\\khachhangxl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C13057-B96B-499C-B8D0-F6B264F3713D}|TruyCapDuLieu\\TruyCapDuLieu.csproj|D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\truycapdulieu\\cacloptruyxuatdulieu\\hoadondl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C13057-B96B-499C-B8D0-F6B264F3713D}|TruyCapDuLieu\\TruyCapDuLieu.csproj|solutionrelative:truycapdulieu\\cacloptruyxuatdulieu\\hoadondl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C13057-B96B-499C-B8D0-F6B264F3713D}|TruyCapDuLieu\\TruyCapDuLieu.csproj|D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\truycapdulieu\\caclopanhxa\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C13057-B96B-499C-B8D0-F6B264F3713D}|TruyCapDuLieu\\TruyCapDuLieu.csproj|solutionrelative:truycapdulieu\\caclopanhxa\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C13057-B96B-499C-B8D0-F6B264F3713D}|TruyCapDuLieu\\TruyCapDuLieu.csproj|D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\truycapdulieu\\tienich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C13057-B96B-499C-B8D0-F6B264F3713D}|TruyCapDuLieu\\TruyCapDuLieu.csproj|solutionrelative:truycapdulieu\\tienich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A76C465-BED9-4992-ACFD-CDD5AA81DF7B}|XuLy\\XuLy.csproj|D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\xuly\\hoadonxl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A76C465-BED9-4992-ACFD-CDD5AA81DF7B}|XuLy\\XuLy.csproj|solutionrelative:xuly\\hoadonxl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A76C465-BED9-4992-ACFD-CDD5AA81DF7B}|XuLy\\XuLy.csproj|D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\xuly\\ct_hdxl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A76C465-BED9-4992-ACFD-CDD5AA81DF7B}|XuLy\\XuLy.csproj|solutionrelative:xuly\\ct_hdxl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C13057-B96B-499C-B8D0-F6B264F3713D}|TruyCapDuLieu\\TruyCapDuLieu.csproj|D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\truycapdulieu\\cacloptruyxuatdulieu\\ct_hddl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C13057-B96B-499C-B8D0-F6B264F3713D}|TruyCapDuLieu\\TruyCapDuLieu.csproj|solutionrelative:truycapdulieu\\cacloptruyxuatdulieu\\ct_hddl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C13057-B96B-499C-B8D0-F6B264F3713D}|TruyCapDuLieu\\TruyCapDuLieu.csproj|D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\truycapdulieu\\caclopanhxa\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C13057-B96B-499C-B8D0-F6B264F3713D}|TruyCapDuLieu\\TruyCapDuLieu.csproj|solutionrelative:truycapdulieu\\caclopanhxa\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C13057-B96B-499C-B8D0-F6B264F3713D}|TruyCapDuLieu\\TruyCapDuLieu.csproj|D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\truycapdulieu\\caclopanhxa\\ct_hd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C13057-B96B-499C-B8D0-F6B264F3713D}|TruyCapDuLieu\\TruyCapDuLieu.csproj|solutionrelative:truycapdulieu\\caclopanhxa\\ct_hd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KhachHangXL.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\XuLy\\KhachHangXL.cs",
+              "RelativeDocumentMoniker": "XuLy\\KhachHangXL.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\XuLy\\KhachHangXL.cs",
+              "RelativeToolTip": "XuLy\\KhachHangXL.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T15:49:47.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmKhachHang.cs [Design]",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\QuanLy_KhachHang\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "QuanLy_KhachHang\\frmKhachHang.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\QuanLy_KhachHang\\frmKhachHang.cs [Design]*",
+              "RelativeToolTip": "QuanLy_KhachHang\\frmKhachHang.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T13:33:38.725Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KhachHangDL.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\TruyCapDuLieu\\CacLopTruyXuatDuLieu\\KhachHangDL.cs",
+              "RelativeDocumentMoniker": "TruyCapDuLieu\\CacLopTruyXuatDuLieu\\KhachHangDL.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\TruyCapDuLieu\\CacLopTruyXuatDuLieu\\KhachHangDL.cs",
+              "RelativeToolTip": "TruyCapDuLieu\\CacLopTruyXuatDuLieu\\KhachHangDL.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwEYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:21:44.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmKhachHang.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\QuanLy_KhachHang\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "QuanLy_KhachHang\\frmKhachHang.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\QuanLy_KhachHang\\frmKhachHang.cs*",
+              "RelativeToolTip": "QuanLy_KhachHang\\frmKhachHang.cs*",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAAAL8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T08:38:28.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HoaDonDL.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\TruyCapDuLieu\\CacLopTruyXuatDuLieu\\HoaDonDL.cs",
+              "RelativeDocumentMoniker": "TruyCapDuLieu\\CacLopTruyXuatDuLieu\\HoaDonDL.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\TruyCapDuLieu\\CacLopTruyXuatDuLieu\\HoaDonDL.cs",
+              "RelativeToolTip": "TruyCapDuLieu\\CacLopTruyXuatDuLieu\\HoaDonDL.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAASwDEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T17:04:39.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\TruyCapDuLieu\\CacLopAnhXa\\HoaDon.cs",
+              "RelativeDocumentMoniker": "TruyCapDuLieu\\CacLopAnhXa\\HoaDon.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\TruyCapDuLieu\\CacLopAnhXa\\HoaDon.cs",
+              "RelativeToolTip": "TruyCapDuLieu\\CacLopAnhXa\\HoaDon.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAABAwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T14:46:36.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TienIch.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\TruyCapDuLieu\\TienIch.cs",
+              "RelativeDocumentMoniker": "TruyCapDuLieu\\TienIch.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\TruyCapDuLieu\\TienIch.cs",
+              "RelativeToolTip": "TruyCapDuLieu\\TienIch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T14:22:08.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HoaDonXL.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\XuLy\\HoaDonXL.cs",
+              "RelativeDocumentMoniker": "XuLy\\HoaDonXL.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\XuLy\\HoaDonXL.cs",
+              "RelativeToolTip": "XuLy\\HoaDonXL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T08:57:54.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CT_HDXL.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\XuLy\\CT_HDXL.cs",
+              "RelativeDocumentMoniker": "XuLy\\CT_HDXL.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\XuLy\\CT_HDXL.cs",
+              "RelativeToolTip": "XuLy\\CT_HDXL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T09:14:52.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CT_HDDL.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\TruyCapDuLieu\\CacLopTruyXuatDuLieu\\CT_HDDL.cs",
+              "RelativeDocumentMoniker": "TruyCapDuLieu\\CacLopTruyXuatDuLieu\\CT_HDDL.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\TruyCapDuLieu\\CacLopTruyXuatDuLieu\\CT_HDDL.cs",
+              "RelativeToolTip": "TruyCapDuLieu\\CacLopTruyXuatDuLieu\\CT_HDDL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T07:29:53.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\TruyCapDuLieu\\CacLopAnhXa\\KhachHang.cs",
+              "RelativeDocumentMoniker": "TruyCapDuLieu\\CacLopAnhXa\\KhachHang.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\TruyCapDuLieu\\CacLopAnhXa\\KhachHang.cs",
+              "RelativeToolTip": "TruyCapDuLieu\\CacLopAnhXa\\KhachHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T14:37:41.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CT_HD.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\TruyCapDuLieu\\CacLopAnhXa\\CT_HD.cs",
+              "RelativeDocumentMoniker": "TruyCapDuLieu\\CacLopAnhXa\\CT_HD.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\QuanLy_KhachHang\\TruyCapDuLieu\\CacLopAnhXa\\CT_HD.cs",
+              "RelativeToolTip": "TruyCapDuLieu\\CacLopAnhXa\\CT_HD.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T14:59:41.734Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
