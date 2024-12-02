@@ -1,0 +1,69 @@
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\QuanLyPhongKhachSan.exe.config
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\QuanLyPhongKhachSan.exe
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\QuanLyPhongKhachSan.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\TruyCapDuLieu.dll
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\XuLy.dll
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\TruyCapDuLieu.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\XuLy.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.csproj.AssemblyReference.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.Properties.Resources.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.frmDangNhap.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.csproj.GenerateResource.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.csproj.CoreCompileInputs.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPh.344EA790.Up2Date
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.exe
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.TrangChu.frmTrangChu.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.frmQL_KhachHang.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.QLNhanVien_DangNhap.frmDoiMatKhau.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.QLNhanVien_DangNhap.frmQL_NhanVien.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.QLPhong.frmQL_Phong.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.QLPhong.frmQL_Tang.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.TrangChu.frmHoaDon.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.TrangChu.frmDatPhong.resources
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\QuanLyPhongKhachSan.exe.config
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\QuanLyPhongKhachSan.exe
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\QuanLyPhongKhachSan.pdb
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\TruyCapDuLieu.dll
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\XuLy.dll
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\TruyCapDuLieu.pdb
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\XuLy.pdb
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.csproj.AssemblyReference.cache
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.frmQL_KhachHang.resources
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.Properties.Resources.resources
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.frmDangNhap.resources
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.QLNhanVien_DangNhap.frmDoiMatKhau.resources
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.QLNhanVien_DangNhap.frmQL_NhanVien.resources
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.QLPhong.frmQL_Phong.resources
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.QLPhong.frmQL_Tang.resources
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.TrangChu.frmDatPhong.resources
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.TrangChu.frmHoaDon.resources
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.TrangChu.frmTrangChu.resources
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.csproj.GenerateResource.cache
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.csproj.CoreCompileInputs.cache
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPh.344EA790.Up2Date
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.exe
+D:\PhatTrienUngDung\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\QuanLyPhongKhachSan.exe.config
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\QuanLyPhongKhachSan.exe
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\QuanLyPhongKhachSan.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\TruyCapDuLieu.dll
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\XuLy.dll
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\TruyCapDuLieu.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\bin\Debug\XuLy.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.csproj.AssemblyReference.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.frmQL_KhachHang.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.Properties.Resources.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.frmDangNhap.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.QLNhanVien_DangNhap.frmDoiMatKhau.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.QLNhanVien_DangNhap.frmQL_NhanVien.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.QLPhong.frmQL_Phong.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.QLPhong.frmQL_Tang.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.TrangChu.frmDatPhong.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.TrangChu.frmHoaDon.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.TrangChu.frmTrangChu.resources
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.csproj.GenerateResource.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.csproj.CoreCompileInputs.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPh.344EA790.Up2Date
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.exe
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan\obj\Debug\QuanLyPhongKhachSan.pdb

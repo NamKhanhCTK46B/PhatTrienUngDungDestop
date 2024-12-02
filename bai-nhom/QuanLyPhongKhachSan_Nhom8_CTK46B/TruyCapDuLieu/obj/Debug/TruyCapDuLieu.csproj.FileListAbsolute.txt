@@ -1,0 +1,12 @@
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\TruyCapDuLieu\bin\Debug\TruyCapDuLieu.dll
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\TruyCapDuLieu\bin\Debug\TruyCapDuLieu.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\TruyCapDuLieu\obj\Debug\TruyCapDuLieu.csproj.AssemblyReference.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\TruyCapDuLieu\obj\Debug\TruyCapDuLieu.csproj.CoreCompileInputs.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\TruyCapDuLieu\obj\Debug\TruyCapDuLieu.dll
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\QuanLyPhongKhachSan_Nhom8_CTK46B\TruyCapDuLieu\obj\Debug\TruyCapDuLieu.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\TruyCapDuLieu\bin\Debug\TruyCapDuLieu.dll
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\TruyCapDuLieu\bin\Debug\TruyCapDuLieu.pdb
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\TruyCapDuLieu\obj\Debug\TruyCapDuLieu.csproj.AssemblyReference.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\TruyCapDuLieu\obj\Debug\TruyCapDuLieu.csproj.CoreCompileInputs.cache
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\TruyCapDuLieu\obj\Debug\TruyCapDuLieu.dll
+D:\đại học\phát triển ứng dụng desktop\bài nhóm\BaoCao\QuanLyPhongKhachSan_Nhom8_CTK46B\QuanLyPhongKhachSan_Nhom8_CTK46B\TruyCapDuLieu\obj\Debug\TruyCapDuLieu.pdb

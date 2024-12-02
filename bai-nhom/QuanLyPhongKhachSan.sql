@@ -69,13 +69,13 @@ create table NhanVien
 	ID_NV		int primary key identity(1,1),
 	TenNV		nvarchar(50) not null,
 	SoCCCD		char(10) not null,
-	GioiTinh	bit not null,
+	GioiTinh	int not null,
 	NgaySinh	smalldatetime not null,
 	NgayVaoLam	smalldatetime not null,
 	SDT			char(10) not null,
 	Email		varchar(100) not null,
 	ID_VT		int references ViTriLV(ID_VT) not null,
-	TenTK		nvarchar(50) not null,
+	TenDN		nvarchar(50) not null,
 	MatKhau		varchar(25) not null,
 	GhiChu		nvarchar(3000),
 	KhaDung		tinyint not null,
@@ -112,6 +112,9 @@ create table CT_HD
 )
 go
 
+
+UPDATE Phong
+set TrangThai = 0
 ------------------------- Các hàm và thủ tục -------------------------
 
 CREATE PROC ThemXoaSua_HangPhong
@@ -194,9 +197,9 @@ GO
 CREATE PROC LayDSPhong
 AS
 BEGIN
-	select	ID_Phong, SoPhong, HangPhong, Tang, MoTa, TrangThai, p.GhiChu
-	from	Phong p, HangPhong hp, Tang t
-	where	p.ID_HP = hp.ID_HP and p.ID_Tang = t.ID_Tang and p.KhaDung = 0
+	select	ID_Phong, SoPhong, ID_HP, ID_Tang, MoTa, TrangThai, p.GhiChu
+	from	Phong p
+	where	p.KhaDung = 0
 END
 GO
 
@@ -235,8 +238,7 @@ GO
 CREATE PROC LayDSKhachHang
 AS
 BEGIN
-	select	ID_KH, TenKH, GioiTinh, NgaySinh, SDT,
-			Email, SoGiayTo, GhiChu
+	select	ID_KH, TenKH, GioiTinh, NgaySinh, SDT, Email, SoGiayTo, GhiChu
 	from	KhachHang
 	where	KhaDung = 0
 END
@@ -309,22 +311,21 @@ GO
 CREATE PROC LayDSNhanVien
 AS
 BEGIN
-	select	ID_NV, TenNV, SoCCCD, GioiTinh, NgaySinh, NgayVaoLam, SDT, Email, TenVT, TenTK
-	from	NhanVien nv, ViTriLV vt
-	where	nv.ID_VT = vt.ID_VT and nv.KhaDung = 0
+	select	ID_NV, TenNV, SoCCCD, GioiTinh, NgaySinh, NgayVaoLam, SDT, Email, ID_VT, TenDN, MatKhau, GhiChu, KhaDung
+	from	NhanVien nv
 END
 GO
 
 CREATE PROC ThemXoaSua_NhanVien
 	@id int output, @ten nvarchar(50), @cccd char(10), @gt bit, @ngaysinh smalldatetime,
 	@ngayvaolam smalldatetime, @sdt char(10), @email varchar(100), @idvt int,
-	@tentk nvarchar(50), @matkhau varchar(25), @ghichu nvarchar(3000), @action tinyint
+	@tendn nvarchar(50), @matkhau varchar(25), @ghichu nvarchar(3000), @action tinyint
 AS
 BEGIN
 	if @action = 0
 		begin
-			insert into NhanVien (TenNV, SoCCCD, GioiTinh, NgaySinh, NgayVaoLam, SDT, Email, ID_VT, TenTK, MatKhau, GhiChu, KhaDung)
-			values (@ten, @cccd, @gt, @ngaysinh, @ngayvaolam, @sdt, @email, @idvt, @tentk, 'Hotel1', @ghichu, 0)
+			insert into NhanVien (TenNV, SoCCCD, GioiTinh, NgaySinh, NgayVaoLam, SDT, Email, ID_VT, TenDN, MatKhau, GhiChu, KhaDung)
+			values (@ten, @cccd, @gt, @ngaysinh, @ngayvaolam, @sdt, @email, @idvt, @tendn, 'Hotel1', @ghichu, 0)
 			select @id = SCOPE_IDENTITY();
 		end
 	else if @action = 1
@@ -333,10 +334,10 @@ BEGIN
 			set
 				TenNV = @ten, SoCCCD = @cccd, GioiTinh = @gt, NgaySinh = @ngaysinh,
 				NgayVaoLam = @ngayvaolam, SDT = @sdt, Email = @email, ID_VT = @idvt,
-				TenTK = @tentk, MatKhau = @matkhau, GhiChu = @ghichu
+				TenDN = @tendn, MatKhau = @matkhau, GhiChu = @ghichu
 			where ID_NV = @id
 		end
-	else if @action = 2
+	else if @action = 2	-- Khoá tài khoản của nhân viên
 		begin
 			update	NhanVien
 			set		KhaDung = 1
@@ -345,29 +346,9 @@ BEGIN
 END
 GO
 
-CREATE PROC CapNhatHoaDon
-	@idhd int, @idnv int, @idkh int, @ngaylap datetime, @ngaytoi datetime, @ngaydi datetime,
-	@datcoc float, @hinhthuctt tinyint, @trangthai tinyint, @phuthu float, @tongtien float, 
-	@ghichu nvarchar(3000)
-AS
-BEGIN
-	update HoaDon
-	set
-		ID_NV = @idnv, ID_KH = @idkh, NgayLap = @ngaylap, NgayToi = @ngaytoi, 
-		NgayDi = @ngaydi, DatCoc = @datcoc, HinhThucThanhToan = @hinhthuctt,
-		TrangThai = @trangthai, PhuThu = @phuthu, TongTien = @tongtien, GhiChu = @ghichu
-	where ID_HD = @idhd
-
-	if @@ERROR <> 0
-		return 0
-	else
-		return 1
-END
-GO
-
-CREATE PROC ThemXoa_HoaDon
+CREATE PROC ThemXoaSua_HoaDon
 	@id int output, @idnv int, @idkh int, @ngaylap datetime, @ngaytoi datetime, 
-	@ngaydi datetime,@datcoc float, @hinhthuctt tinyint, @phuthu float, @tongtien float, 
+	@ngaydi datetime,@datcoc float, @hinhthuctt tinyint, @trangthai tinyint, @phuthu float, @tongtien float, 
 	@ghichu nvarchar(3000), @action tinyint
 AS
 BEGIN
@@ -377,50 +358,82 @@ BEGIN
 			values (@idnv, @idkh, @ngaylap, @ngaytoi, @ngaydi, @datcoc, @hinhthuctt, @phuthu, 0, @tongtien, @ghichu, 0)
 			select @id = SCOPE_IDENTITY();
 		end
-	else if @action = 1 -- Xoá hoá đơn
+	else if @action = 1
+		begin
+			update HoaDon
+		set
+			ID_NV = @idnv, ID_KH = @idkh, NgayLap = @ngaylap, NgayToi = @ngaytoi, 
+			NgayDi = @ngaydi, DatCoc = @datcoc, HinhThucThanhToan = @hinhthuctt,
+			TrangThai = @trangthai, PhuThu = @phuthu, TongTien = @tongtien, GhiChu = @ghichu
+		where ID_HD = @id
+
+		if @@ERROR <> 0
+			return 0
+		else
+			return 1
+		end
+	else if @action = 2 -- Xoá hoá đơn
 		begin
 			delete from HoaDon where ID_HD = @id
 		end
 END
 GO
 
+CREATE PROC	LayDSHD 
+AS
+BEGIN
+	select	ID_HD, ID_NV, NgayLap, NgayToi, NgayDi, DatCoc, HinhThucThanhToan, PhuThu, TrangThai,
+			TongTien, GhiChu
+	from	HoaDon
+	where	KhaDung = 0
+END
+GO
+
 CREATE PROC LayHDCuaKH		@idkh int
 AS
 BEGIN
-	select	ID_HD, TenNV, NgayLap, NgayToi, NgayDi, DatCoc, HinhThucThanhToan, PhuThu, 
+	select	ID_HD, ID_NV, NgayLap, NgayToi, NgayDi, DatCoc, HinhThucThanhToan, PhuThu, 
 			TrangThai, TongTien, hd.GhiChu
-	from	HoaDon hd, KhachHang kh, NhanVien nv
-	where	hd.ID_NV = nv.ID_NV and hd.ID_KH = kh.ID_KH and hd.ID_KH = @idkh and hd.KhaDung = 0
+	from	HoaDon hd
+	where	hd.ID_KH = @idkh and hd.KhaDung = 0
 END
 GO
 
 CREATE PROC LayDSHDCuaKH_Ngay	@idkh int, @ngaybd datetime, @ngaykt datetime
 AS
 BEGIN
-	select	ID_HD, TenNV, NgayLap, NgayToi, NgayDi, DatCoc, HinhThucThanhToan, PhuThu, 
+	select	ID_HD, ID_NV, NgayLap, NgayToi, NgayDi, DatCoc, HinhThucThanhToan, PhuThu, 
 			TrangThai, TongTien, hd.GhiChu
-	from	HoaDon hd, NhanVien nv, KhachHang kh
-	where	hd.ID_NV = nv.ID_NV and hd.ID_KH = kh.ID_KH and
-			hd.ID_KH = @idkh and NgayLap between @ngaybd and @ngaykt
+	from	HoaDon hd
+	where	hd.ID_KH = @idkh and NgayLap between @ngaybd and @ngaykt
 END
 GO
 
 CREATE PROC LayHDCuaPhong	@idp int
 AS
 BEGIN
-	select	hd.ID_HD, TenNV, TenKH, NgayLap, NgayToi, NgayDi, DatCoc, HinhThucThanhToan, PhuThu, 
+	select	hd.ID_HD, ID_NV, ID_KH, NgayLap, NgayToi, NgayDi, DatCoc, HinhThucThanhToan, PhuThu, 
 			TrangThai, TongTien, hd.GhiChu 
-	from	HoaDon hd, CT_HD ct, KhachHang kh, NhanVien nv
-	where	hd.ID_HD = ct.ID_HD and hd.ID_KH = kh.ID_KH and nv.ID_NV = hd.ID_NV and ct.ID_Phong = @idp
+	from	HoaDon hd, CT_HD ct
+	where	hd.ID_HD = ct.ID_HD and ct.ID_Phong = @idp
 END
 GO
 
 CREATE PROC LayCTHDCuaHD	@idhd int
 AS
 BEGIN
-	select	ID_CT, ID_HD, ct.ID_Phong, SoPhong, Gia, ThoiGianThue, DonVi
+	select	ID_CT, ID_HD, ct.ID_Phong, Gia, ThoiGianThue, DonVi
 	from	CT_HD ct, Phong p
 	where	ct.ID_Phong = p.ID_Phong and ID_HD = @idhd and ct.KhaDung = 0
+END
+GO
+
+CREATE PROC LayDSCT_HD
+AS
+BEGIN
+	select	ID_CT, ID_HD, ID_Phong, Gia, ThoiGianThue, DonVi
+	from	CT_HD
+	where	KhaDung = 0
 END
 GO
 
@@ -527,7 +540,7 @@ BEGIN
 		end
 END
 GO
-
+select * from Phong
 CREATE PROC LayHDCuaPhong_Ngay	@idp int, @ngaybd datetime, @ngaykt datetime
 AS
 BEGIN
@@ -539,49 +552,49 @@ BEGIN
 END
 GO
 
-WITH HoaDonTrongKhoang AS (
-                SELECT 
-                    HD.ID_HD, 
-                    HD.ID_NV, 
-                    NV.TenNV, 
-                    HD.ID_KH, 
-                    KH.TenKH, 
-                    HD.NgayLap, 
-                    HD.NgayToi, 
-                    HD.NgayDi, 
-                    HD.DatCoc, 
-                    HD.HinhThucThanhToan, 
-                    HD.PhuThu, 
-                    HD.TrangThai, 
-                    HD.TongTien, 
-                    HD.GhiChu
-                FROM 
-                    HoaDon AS HD
-                INNER JOIN 
-                    NhanVien AS NV ON HD.ID_NV = NV.ID_NV
-                INNER JOIN 
-                    KhachHang AS KH ON HD.ID_KH = KH.ID_KH
-                WHERE 
-                    (HD.NgayToi <= @NgayKetThuc) AND (HD.NgayDi >= @NgayBatDau)
-            )
-            SELECT 
-                P.ID_Phong,
-                P.SoPhong,
-                HP.HangPhong
-            FROM 
-                Phong AS P
-            INNER JOIN 
-                HangPhong AS HP ON P.ID_HP = HP.ID_HP
-            WHERE 
-                P.KhaDung = 1
-                AND NOT EXISTS (
-                    SELECT 1
-                    FROM HoaDonTrongKhoang AS HD
-                    INNER JOIN CT_HD AS CTHD ON HD.ID_HD = CTHD.ID_HD
-                    WHERE CTHD.ID_Phong = P.ID_Phong
-                )
-            ORDER BY 
-                P.SoPhong;"
+--WITH HoaDonTrongKhoang AS (
+--                SELECT 
+--                    HD.ID_HD, 
+--                    HD.ID_NV, 
+--                    NV.TenNV, 
+--                    HD.ID_KH, 
+--                    KH.TenKH, 
+--                    HD.NgayLap, 
+--                    HD.NgayToi, 
+--                    HD.NgayDi, 
+--                    HD.DatCoc, 
+--                    HD.HinhThucThanhToan, 
+--                    HD.PhuThu, 
+--                    HD.TrangThai, 
+--                    HD.TongTien, 
+--                    HD.GhiChu
+--                FROM 
+--                    HoaDon AS HD
+--                INNER JOIN 
+--                    NhanVien AS NV ON HD.ID_NV = NV.ID_NV
+--                INNER JOIN 
+--                    KhachHang AS KH ON HD.ID_KH = KH.ID_KH
+--                WHERE 
+--                    (HD.NgayToi <= @NgayKetThuc) AND (HD.NgayDi >= @NgayBatDau)
+--            )
+--            SELECT 
+--                P.ID_Phong,
+--                P.SoPhong,
+--                HP.HangPhong
+--            FROM 
+--                Phong AS P
+--            INNER JOIN 
+--                HangPhong AS HP ON P.ID_HP = HP.ID_HP
+--            WHERE 
+--                P.KhaDung = 1
+--                AND NOT EXISTS (
+--                    SELECT 1
+--                    FROM HoaDonTrongKhoang AS HD
+--                    INNER JOIN CT_HD AS CTHD ON HD.ID_HD = CTHD.ID_HD
+--                    WHERE CTHD.ID_Phong = P.ID_Phong
+--                )
+--            ORDER BY  P.SoPhong;
+--GO
 
 insert into HangPhong (HangPhong, Gia, GiaGio, DienTich, DonViDT, SucChuaToiDa, GhiChu, KhaDung)
 values	(N'Phòng đơn', 220000, 70000, 20, N'mét vuông', N'Một người lớn và một trẻ em', '', 0),
@@ -636,20 +649,19 @@ go
 insert into ViTriLV (TenVT, Luong, KhaDung)
 values	(N'Quản lý', 10000000, 0),
 		(N'Lễ tân', 5000000, 0),
-		(N'Admin', 7000000, 1)
+		(N'Quản trị viên', 7000000, 1)
 go
 
 set dateformat dmy
 go
-insert into NhanVien (TenNV, SoCCCD, GioiTinh, NgaySinh, NgayVaoLam, SDT, Email, ID_VT, TenTK, MatKhau, KhaDung)
-values	(N'Nguyễn Đức Duy Ân', '202411001', 1, '10/07/2002', '10/09/2023', '0624000011', 'ducannd@gmail.com', 1, 'DuyAn107', 'Hotel1', 0),
-		(N'Võ Thị Thu Ngân', '202411002', 0, '24/05/2001', '10/10/2022', '0324100009', 'thunganvt@gmail.com', 1, 'ThuNgan24', 'Hotel1', 0),
-		(N'Nguyễn Quốc Anh', '202412001', 1, '18/01/2003', '20/07/2023', '0924100011', 'anhnq@gmail.com', 2, 'Anh181', 'Hotel1',0),
-		(N'Vũ Thiên Quân', '202412002', 1, '09/09/2002', '15/12/2022', '0728409910', 'quanvt@gmail.com', 2, 'Quan02', 'Hotel1', 0),
-		(N'Nguyễn Thảo Quỳnh', '202412003', 0, '16/06/2004', '13/07/2024', '0314765524', 'quynhnt@gmail.com', 2, 'Quynh16', 'Hotel1', 0),
-		(N'Nguyễn Ngọc Tuyết', '202412004', 0, '09/08/2001', '18/10/2022', '0423312789', 'tuyetngn@gmail.com', 2, 'Tuyet18', 'Hotel1',0)
+insert into NhanVien (TenNV, SoCCCD, GioiTinh, NgaySinh, NgayVaoLam, SDT, Email, ID_VT, TenDN, MatKhau, GhiChu, KhaDung)
+values	(N'Nguyễn Đức Duy Ân', '202411001', 1, '10/07/2002', '10/09/2023', '0624000011', 'ducannd@gmail.com', 1, 'DuyAn107', 'Hotel1', '', 0),
+		(N'Võ Thị Thu Ngân', '202411002', 0, '24/05/2001', '10/10/2022', '0324100009', 'thunganvt@gmail.com', 1, 'ThuNgan24', 'Hotel1','', 0),
+		(N'Nguyễn Quốc Anh', '202412001', 1, '18/01/2003', '20/07/2023', '0924100011', 'anhnq@gmail.com', 2, 'Anh181', 'Hotel1','', 0),
+		(N'Vũ Thiên Quân', '202412002', 1, '09/09/2002', '15/12/2022', '0728409910', 'quanvt@gmail.com', 2, 'Quan02', 'Hotel1','',  0),
+		(N'Nguyễn Thảo Quỳnh', '202412003', 0, '16/06/2004', '13/07/2024', '0314765524', 'quynhnt@gmail.com', 2, 'Quynh16', 'Hotel1', '', 0),
+		(N'Nguyễn Ngọc Tuyết', '202412004', 0, '09/08/2001', '18/10/2022', '0423312789', 'tuyetngn@gmail.com', 2, 'Tuyet18', 'Hotel1', '', 0)
 go
-
 set dateformat dmy
 go
 insert into HoaDon (ID_NV, ID_KH, NgayLap, NgayToi, NgayDi, DatCoc, HinhThucThanhToan, PhuThu, TrangThai, TongTien, GhiChu, KhaDung)
@@ -679,7 +691,7 @@ values	(1, 1, 0, 0, '', 0), (1, 4, 0, 0, '', 0),
 		(9, 5, 0, 0, '', 0), (9, 11, 0, 0, '', 0),
 		(10, 19, 0, 0, '', 0), (10, 24, 0, 0, '', 0)
 go
-
+select * from KhachHang
 update CT_HD 
 set
 	Gia = dbo.LayGiaPhong(NgayToi, NgayDi, ID_Phong),
@@ -707,6 +719,8 @@ GO
 update	HoaDon
 set		TongTien = dbo.TinhTongTien(ID_HD)
 
+
+
 exec LayDSHangPhong 
 exec LayDSTang 
 exec LayDSPhong 
@@ -715,3 +729,4 @@ exec LayDSViTriLV
 exec LayDSNhanVien 
 select * from HoaDon 
 select * from CT_HD
+

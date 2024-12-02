@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\BaoCao\\QuanLyPhongKhachSan_Nhom8_CTK46B\\QuanLyPhongKhachSan_Nhom8_CTK46B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86EE7C7F-7C59-47DF-97B3-558CDEDFE150}|TruyCapDuLieu\\TruyCapDuLieu.csproj|d:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\baocao\\quanlyphongkhachsan_nhom8_ctk46b\\quanlyphongkhachsan_nhom8_ctk46b\\truycapdulieu\\loptruyxuatdl\\hoadonda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86EE7C7F-7C59-47DF-97B3-558CDEDFE150}|TruyCapDuLieu\\TruyCapDuLieu.csproj|solutionrelative:truycapdulieu\\loptruyxuatdl\\hoadonda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513F7528-D10F-4D10-8F14-46C4A7FABED8}|QuanLyPhongKhachSan\\QuanLyPhongKhachSan.csproj|d:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\baocao\\quanlyphongkhachsan_nhom8_ctk46b\\quanlyphongkhachsan_nhom8_ctk46b\\quanlyphongkhachsan\\qlphong\\frmql_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{513F7528-D10F-4D10-8F14-46C4A7FABED8}|QuanLyPhongKhachSan\\QuanLyPhongKhachSan.csproj|solutionrelative:quanlyphongkhachsan\\qlphong\\frmql_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513F7528-D10F-4D10-8F14-46C4A7FABED8}|QuanLyPhongKhachSan\\QuanLyPhongKhachSan.csproj|D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\BaoCao\\QuanLyPhongKhachSan_Nhom8_CTK46B\\QuanLyPhongKhachSan_Nhom8_CTK46B\\quanlyphongkhachsan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513F7528-D10F-4D10-8F14-46C4A7FABED8}|QuanLyPhongKhachSan\\QuanLyPhongKhachSan.csproj|solutionrelative:quanlyphongkhachsan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HoaDonDA.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\BaoCao\\QuanLyPhongKhachSan_Nhom8_CTK46B\\QuanLyPhongKhachSan_Nhom8_CTK46B\\TruyCapDuLieu\\LopTruyXuatDL\\HoaDonDA.cs",
+              "RelativeDocumentMoniker": "TruyCapDuLieu\\LopTruyXuatDL\\HoaDonDA.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\BaoCao\\QuanLyPhongKhachSan_Nhom8_CTK46B\\QuanLyPhongKhachSan_Nhom8_CTK46B\\TruyCapDuLieu\\LopTruyXuatDL\\HoaDonDA.cs",
+              "RelativeToolTip": "TruyCapDuLieu\\LopTruyXuatDL\\HoaDonDA.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAIMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T20:12:59.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmQL_Phong.cs [Design]",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\BaoCao\\QuanLyPhongKhachSan_Nhom8_CTK46B\\QuanLyPhongKhachSan_Nhom8_CTK46B\\QuanLyPhongKhachSan\\QLPhong\\frmQL_Phong.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongKhachSan\\QLPhong\\frmQL_Phong.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\BaoCao\\QuanLyPhongKhachSan_Nhom8_CTK46B\\QuanLyPhongKhachSan_Nhom8_CTK46B\\QuanLyPhongKhachSan\\QLPhong\\frmQL_Phong.cs [Design]",
+              "RelativeToolTip": "QuanLyPhongKhachSan\\QLPhong\\frmQL_Phong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T20:12:43.674Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\BaoCao\\QuanLyPhongKhachSan_Nhom8_CTK46B\\QuanLyPhongKhachSan_Nhom8_CTK46B\\QuanLyPhongKhachSan\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongKhachSan\\Program.cs",
+              "ToolTip": "D:\\\u0111\u1EA1i h\u1ECDc\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng desktop\\b\u00E0i nh\u00F3m\\BaoCao\\QuanLyPhongKhachSan_Nhom8_CTK46B\\QuanLyPhongKhachSan_Nhom8_CTK46B\\QuanLyPhongKhachSan\\Program.cs",
+              "RelativeToolTip": "QuanLyPhongKhachSan\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T20:57:06.12Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
