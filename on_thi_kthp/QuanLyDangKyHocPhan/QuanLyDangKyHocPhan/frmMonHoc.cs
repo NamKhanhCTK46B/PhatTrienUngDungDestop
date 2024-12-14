@@ -59,6 +59,12 @@ namespace QuanLyDangKyHocPhan
 
         private bool KiemTraNhapTT ()
         {
+            //if (string.IsNullOrEmpty(txtMaMH.Text))
+            //{
+            //    MessageBox.Show("Vui lòng nhập mã môn học", "Thông báo");
+            //    return false;
+            //}   
+            
             if (string.IsNullOrEmpty(txtTenMH.Text))
             {
                 MessageBox.Show("Vui lòng nhập tên môn học", "Thông báo");
@@ -85,10 +91,7 @@ namespace QuanLyDangKyHocPhan
                     cmd.CommandType = CommandType.StoredProcedure; // Xác định loại lệnh là stored procedure (thủ tục)
 
                     // Thêm các tham số cho stored procedure
-                    cmd.Parameters.Add(new SqlParameter("@mamh", SqlDbType.Int)
-                    {
-                        Direction = ParameterDirection.Output
-                    });
+                    cmd.Parameters.AddWithValue("@mamh", txtMaMH.Text.Trim());
                     cmd.Parameters.AddWithValue("@ten", txtTenMH.Text.Trim());
                     cmd.Parameters.AddWithValue("@sotc", nudSoTC.Value);
                     cmd.Parameters.AddWithValue("@ctdt", cboCTDT.SelectedValue);
@@ -106,10 +109,8 @@ namespace QuanLyDangKyHocPhan
                     }
                     else
                     {
-                        MessageBox.Show("Thêm môn học thất bại. Vui lòng thử lại.",
-                                        "Thông báo",
-                                        MessageBoxButtons.OK,
-                                        MessageBoxIcon.Warning);
+                        MessageBox.Show("Thêm môn học thất bại. Vui lòng thử lại.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
                     }
 
                 }    
@@ -150,7 +151,48 @@ namespace QuanLyDangKyHocPhan
             
         }
 
+        private void CapNhatMonHoc()
+        {
+            try
+            {
+                using (SqlConnection kn = new SqlConnection(chuoiKN))
+                using (SqlCommand cmd = new SqlCommand("ThemSuaXoa_MonHoc", kn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    cmd.Parameters.AddWithValue("@mamh", txtMaMH.Text.Trim());
+                    cmd.Parameters.AddWithValue("@ten", txtTenMH.Text.Trim());
+                    cmd.Parameters.AddWithValue("@sotc", nudSoTC.Value);
+                    cmd.Parameters.AddWithValue("@ctdt", cboCTDT.SelectedValue);
+                    cmd.Parameters.AddWithValue("@thaotac", 1);
+
+                    kn.Open();
+
+                    int soHangBiTacDong = cmd.ExecuteNonQuery();
+
+                    if(soHangBiTacDong > 0)
+                        MessageBox.Show($"Cập nhật môn học thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    else
+                    {
+
+                        MessageBox.Show("Cập nhật môn học thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi SQL", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
         #endregion
+
+        #region Các sự kiện
 
         private void frmMonHoc_Load(object sender, EventArgs e)
         {
@@ -159,7 +201,17 @@ namespace QuanLyDangKyHocPhan
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
+            if(KiemTraNhapTT())
+            {
+                if (string.IsNullOrEmpty(txtMaMH.Text))
+                    Them_MonHoc();
+                else
+                    CapNhatMonHoc();
 
+                this.Close();
+            }    
         }
+
+        #endregion
     }
 }

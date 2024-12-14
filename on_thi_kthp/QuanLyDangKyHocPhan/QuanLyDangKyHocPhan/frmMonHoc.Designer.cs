@@ -146,7 +146,7 @@
             this.Controls.Add(this.txtMaMH);
             this.Controls.Add(this.label1);
             this.Name = "frmMonHoc";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Môn học";
             this.Load += new System.EventHandler(this.frmMonHoc_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudSoTC)).EndInit();
