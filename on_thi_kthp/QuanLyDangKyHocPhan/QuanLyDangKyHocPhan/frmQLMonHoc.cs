@@ -41,14 +41,42 @@ namespace QuanLyDangKyHocPhan
                 laydl.Fill (dsMonHoc);
             }
             
-            dgvMonHoc.AutoGenerateColumns = false; //để datagridview không tự tạo thêm cột
             dgvMonHoc.DataSource = dsMonHoc;
+        }
+
+        private void XoaMH (string maMH)
+        {
+            
+            try
+            {
+                string tvXoa = "delete from MonHoc where MaMH = @mamh";
+
+                using (SqlConnection kn = new SqlConnection(chuoiKN))
+                using (SqlCommand cmd = new SqlCommand(tvXoa, kn))
+                {
+                    cmd.CommandType = CommandType.Text;
+                    cmd.Parameters.AddWithValue("@mamh", maMH);
+
+                    kn.Open();
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi SQL", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         #endregion
 
         private void frmQLMonHoc_Load(object sender, EventArgs e)
         {
+            dgvMonHoc.AutoGenerateColumns = false; //để datagridview không tự tạo thêm cột
             TaiDSMonHoc(ctdtHienTai);
             rdTatCa.Checked = true;
         }
@@ -86,6 +114,7 @@ namespace QuanLyDangKyHocPhan
             gdMonHoc.Show(this);
         }
 
+        //Sự kiện đóng form frmMonHoc
         void gdMonHoc_FormClosed(object sender, FormClosedEventArgs e)
         {
             if (ctdtHienTai == 0)
@@ -203,6 +232,37 @@ namespace QuanLyDangKyHocPhan
             else
                 MessageBox.Show("Vui lòng chọn môn học cần tính toán", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             
+        }
+
+        private void tsmiXoa_Click(object sender, EventArgs e)
+        {
+            if (dgvMonHoc.SelectedRows.Count > 0)
+            {
+                string mamh = dgvMonHoc.SelectedRows[0].Cells["MaMH"].Value.ToString();
+                DataGridViewRow mh = dgvMonHoc.SelectedRows[0];
+                XoaMH(mamh);
+                //Xoá hàng đã chọn trong DataGridView
+                dgvMonHoc.Rows.Remove(mh);
+
+                MessageBox.Show("Xoá môn học thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+                MessageBox.Show("Vui lòng chọn môn học cần xoá", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
+        private void tsmiXemDSSV_Click(object sender, EventArgs e)
+        {
+            if(dgvMonHoc.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Vui lòng chọn môn học cần xoá", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                string maMH = dgvMonHoc.SelectedRows[0].Cells["MaMH"].Value.ToString();
+
+                frmSinhVien gdSinhVien = new frmSinhVien(maMH);
+                gdSinhVien.ShowDialog();
+            }    
         }
     }
 }

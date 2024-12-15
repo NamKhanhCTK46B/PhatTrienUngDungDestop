@@ -91,7 +91,7 @@ namespace QuanLyDangKyHocPhan
                     cmd.CommandType = CommandType.StoredProcedure; // Xác định loại lệnh là stored procedure (thủ tục)
 
                     // Thêm các tham số cho stored procedure
-                    cmd.Parameters.AddWithValue("@mamh", txtMaMH.Text.Trim());
+                    cmd.Parameters.AddWithValue("@mamh", "");
                     cmd.Parameters.AddWithValue("@ten", txtTenMH.Text.Trim());
                     cmd.Parameters.AddWithValue("@sotc", nudSoTC.Value);
                     cmd.Parameters.AddWithValue("@ctdt", cboCTDT.SelectedValue);
@@ -105,7 +105,7 @@ namespace QuanLyDangKyHocPhan
                     {
                         // Lấy mã môn học từ tham số output
                         string maMonHoc = cmd.Parameters["@mamh"].Value.ToString();
-                        MessageBox.Show($"Thêm môn học thành công. Mã môn học là: {maMonHoc}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show($"Thêm môn học thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {

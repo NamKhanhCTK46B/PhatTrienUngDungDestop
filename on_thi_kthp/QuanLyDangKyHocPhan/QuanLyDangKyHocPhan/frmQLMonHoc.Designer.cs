@@ -30,26 +30,26 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rdTatCa = new System.Windows.Forms.RadioButton();
-            this.rdCT2015 = new System.Windows.Forms.RadioButton();
-            this.rdCT2017 = new System.Windows.Forms.RadioButton();
             this.rdCT2020 = new System.Windows.Forms.RadioButton();
+            this.rdCT2017 = new System.Windows.Forms.RadioButton();
+            this.rdCT2015 = new System.Windows.Forms.RadioButton();
+            this.rdTatCa = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.rdMa_Ten = new System.Windows.Forms.RadioButton();
             this.rdSTC = new System.Windows.Forms.RadioButton();
-            this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.dgvMonHoc = new System.Windows.Forms.DataGridView();
             this.btnThem = new System.Windows.Forms.Button();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmiXoa = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiXemDSSV = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiTinhSoSVDK = new System.Windows.Forms.ToolStripMenuItem();
+            this.dgvMonHoc = new System.Windows.Forms.DataGridView();
             this.MaMH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenMH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CTDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SoTC = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.tsmiXoa = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiXemDSSV = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiTinhSoSVDK = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -70,27 +70,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chọn chương trình đào tạo";
             // 
-            // rdTatCa
+            // rdCT2020
             // 
-            this.rdTatCa.AutoSize = true;
-            this.rdTatCa.Location = new System.Drawing.Point(50, 36);
-            this.rdTatCa.Name = "rdTatCa";
-            this.rdTatCa.Size = new System.Drawing.Size(66, 20);
-            this.rdTatCa.TabIndex = 0;
-            this.rdTatCa.Text = "Tất cả";
-            this.rdTatCa.UseVisualStyleBackColor = true;
-            this.rdTatCa.CheckedChanged += new System.EventHandler(this.rdTatCa_CheckedChanged);
-            // 
-            // rdCT2015
-            // 
-            this.rdCT2015.AutoSize = true;
-            this.rdCT2015.Location = new System.Drawing.Point(207, 36);
-            this.rdCT2015.Name = "rdCT2015";
-            this.rdCT2015.Size = new System.Drawing.Size(56, 20);
-            this.rdCT2015.TabIndex = 0;
-            this.rdCT2015.Text = "2015";
-            this.rdCT2015.UseVisualStyleBackColor = true;
-            this.rdCT2015.CheckedChanged += new System.EventHandler(this.rdTatCa_CheckedChanged);
+            this.rdCT2020.AutoSize = true;
+            this.rdCT2020.Location = new System.Drawing.Point(509, 36);
+            this.rdCT2020.Name = "rdCT2020";
+            this.rdCT2020.Size = new System.Drawing.Size(56, 20);
+            this.rdCT2020.TabIndex = 0;
+            this.rdCT2020.Text = "2020";
+            this.rdCT2020.UseVisualStyleBackColor = true;
+            this.rdCT2020.CheckedChanged += new System.EventHandler(this.rdTatCa_CheckedChanged);
             // 
             // rdCT2017
             // 
@@ -103,16 +92,27 @@
             this.rdCT2017.UseVisualStyleBackColor = true;
             this.rdCT2017.CheckedChanged += new System.EventHandler(this.rdTatCa_CheckedChanged);
             // 
-            // rdCT2020
+            // rdCT2015
             // 
-            this.rdCT2020.AutoSize = true;
-            this.rdCT2020.Location = new System.Drawing.Point(509, 36);
-            this.rdCT2020.Name = "rdCT2020";
-            this.rdCT2020.Size = new System.Drawing.Size(56, 20);
-            this.rdCT2020.TabIndex = 0;
-            this.rdCT2020.Text = "2020";
-            this.rdCT2020.UseVisualStyleBackColor = true;
-            this.rdCT2020.CheckedChanged += new System.EventHandler(this.rdTatCa_CheckedChanged);
+            this.rdCT2015.AutoSize = true;
+            this.rdCT2015.Location = new System.Drawing.Point(207, 36);
+            this.rdCT2015.Name = "rdCT2015";
+            this.rdCT2015.Size = new System.Drawing.Size(56, 20);
+            this.rdCT2015.TabIndex = 0;
+            this.rdCT2015.Text = "2015";
+            this.rdCT2015.UseVisualStyleBackColor = true;
+            this.rdCT2015.CheckedChanged += new System.EventHandler(this.rdTatCa_CheckedChanged);
+            // 
+            // rdTatCa
+            // 
+            this.rdTatCa.AutoSize = true;
+            this.rdTatCa.Location = new System.Drawing.Point(50, 36);
+            this.rdTatCa.Name = "rdTatCa";
+            this.rdTatCa.Size = new System.Drawing.Size(66, 20);
+            this.rdTatCa.TabIndex = 0;
+            this.rdTatCa.Text = "Tất cả";
+            this.rdTatCa.UseVisualStyleBackColor = true;
+            this.rdTatCa.CheckedChanged += new System.EventHandler(this.rdTatCa_CheckedChanged);
             // 
             // groupBox2
             // 
@@ -125,6 +125,14 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tìm kiếm";
+            // 
+            // txtTimKiem
+            // 
+            this.txtTimKiem.Location = new System.Drawing.Point(344, 34);
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.Size = new System.Drawing.Size(247, 22);
+            this.txtTimKiem.TabIndex = 1;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             // 
             // rdMa_Ten
             // 
@@ -148,14 +156,6 @@
             this.rdSTC.Text = "Theo số TC";
             this.rdSTC.UseVisualStyleBackColor = true;
             // 
-            // txtTimKiem
-            // 
-            this.txtTimKiem.Location = new System.Drawing.Point(344, 34);
-            this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(247, 22);
-            this.txtTimKiem.TabIndex = 1;
-            this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
-            // 
             // groupBox3
             // 
             this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -169,6 +169,18 @@
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Danh sách môn học";
+            // 
+            // btnThem
+            // 
+            this.btnThem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnThem.Location = new System.Drawing.Point(783, 19);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(45, 31);
+            this.btnThem.TabIndex = 1;
+            this.btnThem.Text = "+";
+            this.toolTip1.SetToolTip(this.btnThem, "Thêm môn học");
+            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // dgvMonHoc
             // 
@@ -188,47 +200,6 @@
             this.dgvMonHoc.Size = new System.Drawing.Size(843, 191);
             this.dgvMonHoc.TabIndex = 0;
             this.dgvMonHoc.DoubleClick += new System.EventHandler(this.dgvMonHoc_DoubleClick);
-            // 
-            // btnThem
-            // 
-            this.btnThem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnThem.Location = new System.Drawing.Point(783, 19);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(45, 31);
-            this.btnThem.TabIndex = 1;
-            this.btnThem.Text = "+";
-            this.toolTip1.SetToolTip(this.btnThem, "Thêm môn học");
-            this.btnThem.UseVisualStyleBackColor = true;
-            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmiXoa,
-            this.tsmiXemDSSV,
-            this.tsmiTinhSoSVDK});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(358, 104);
-            // 
-            // tsmiXoa
-            // 
-            this.tsmiXoa.Name = "tsmiXoa";
-            this.tsmiXoa.Size = new System.Drawing.Size(357, 24);
-            this.tsmiXoa.Text = "Xoá";
-            // 
-            // tsmiXemDSSV
-            // 
-            this.tsmiXemDSSV.Name = "tsmiXemDSSV";
-            this.tsmiXemDSSV.Size = new System.Drawing.Size(357, 24);
-            this.tsmiXemDSSV.Text = "Xem danh sách sinh viên đăng ký môn học";
-            // 
-            // tsmiTinhSoSVDK
-            // 
-            this.tsmiTinhSoSVDK.Name = "tsmiTinhSoSVDK";
-            this.tsmiTinhSoSVDK.Size = new System.Drawing.Size(357, 24);
-            this.tsmiTinhSoSVDK.Text = "Tổng số lượng SV đăng ký MH";
-            this.tsmiTinhSoSVDK.Click += new System.EventHandler(this.tsmiTinhSoSVDK_Click);
             // 
             // MaMH
             // 
@@ -264,6 +235,38 @@
             this.SoTC.MinimumWidth = 6;
             this.SoTC.Name = "SoTC";
             this.SoTC.ReadOnly = true;
+            this.SoTC.Width = 125;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiXoa,
+            this.tsmiXemDSSV,
+            this.tsmiTinhSoSVDK});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(358, 104);
+            // 
+            // tsmiXoa
+            // 
+            this.tsmiXoa.Name = "tsmiXoa";
+            this.tsmiXoa.Size = new System.Drawing.Size(357, 24);
+            this.tsmiXoa.Text = "Xoá";
+            this.tsmiXoa.Click += new System.EventHandler(this.tsmiXoa_Click);
+            // 
+            // tsmiXemDSSV
+            // 
+            this.tsmiXemDSSV.Name = "tsmiXemDSSV";
+            this.tsmiXemDSSV.Size = new System.Drawing.Size(357, 24);
+            this.tsmiXemDSSV.Text = "Xem danh sách sinh viên đăng ký môn học";
+            this.tsmiXemDSSV.Click += new System.EventHandler(this.tsmiXemDSSV_Click);
+            // 
+            // tsmiTinhSoSVDK
+            // 
+            this.tsmiTinhSoSVDK.Name = "tsmiTinhSoSVDK";
+            this.tsmiTinhSoSVDK.Size = new System.Drawing.Size(357, 24);
+            this.tsmiTinhSoSVDK.Text = "Tổng số lượng SV đăng ký MH";
+            this.tsmiTinhSoSVDK.Click += new System.EventHandler(this.tsmiTinhSoSVDK_Click);
             // 
             // frmQLMonHoc
             // 
